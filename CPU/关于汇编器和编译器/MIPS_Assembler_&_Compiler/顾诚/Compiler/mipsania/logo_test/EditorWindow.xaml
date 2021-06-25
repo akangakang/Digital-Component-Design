@@ -1,0 +1,27 @@
+﻿<Window x:Class="LogoScriptIDE.EditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:avalonEdit="http://icsharpcode.net/sharpdevelop/avalonedit"
+        xmlns:myspace="clr-namespace:LogoScriptIDE"
+        Width="500" Height="300" Loaded="Window_Loaded" Closing="Window_Closing" ShowInTaskbar="False" WindowStyle="ToolWindow" Closed="Window_Closed">
+    <Window.CommandBindings>
+        <CommandBinding Command="myspace:EditorWindow.CommandOpen" Executed="CommandOpen_Executed" />
+        <CommandBinding Command="myspace:EditorWindow.CommandSave" Executed="CommandSave_Executed" />
+        <CommandBinding Command="myspace:EditorWindow.CommandNew" Executed="CommandNew_Executed" />
+    </Window.CommandBindings>
+
+    <Window.InputBindings>
+        <KeyBinding Command="myspace:EditorWindow.CommandOpen" Key="O" Modifiers="Ctrl"/>
+        <KeyBinding Command="myspace:EditorWindow.CommandSave" Key="S" Modifiers="Ctrl"/>
+        <KeyBinding Command="myspace:EditorWindow.CommandNew" Key="N" Modifiers="Ctrl"/>
+    </Window.InputBindings>
+
+    <Grid>
+        <avalonEdit:TextEditor
+			Name="ui_editor"
+			FontFamily="Consolas"
+			FontSize="11pt"
+            ShowLineNumbers="True" TextChanged="ui_editor_TextChanged">
+        </avalonEdit:TextEditor>
+    </Grid>
+</Window>

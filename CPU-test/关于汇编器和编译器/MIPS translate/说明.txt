@@ -1,0 +1,6 @@
+1. 在命令行中输入python compile.py
+2. 输入汇编文件名，比如assembly/game.s
+3. 运行结束后会看到assembly/game.mif，就是MIPS程序文件
+4. 注意这只是执行流，数据流可以参照memory文件夹下的mif文件
+
+有问题可以给我发邮件，willzhang@sjtu.edu.cn

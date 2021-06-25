@@ -1,0 +1,2354 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\97537\STUDY\Digital_Component_Design\pipeline_computer
+va_graycounter
+Z1 !s100 m]Q`BN?a_cWIlQNdheO3k0
+Z2 ISc^Li2DGVG^l519n68BIO2
+Z3 VDf]LUSeG959GAjb>XD]GQ3
+Z4 dC:\Users\97537\STUDY\Digital_Component_Design\pp_test
+Z5 w1622804771
+Z6 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/altera_mf.v
+Z7 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/altera_mf.v
+Z8 L0 49136
+Z9 OV;L;10.1d;51
+r1
+31
+Z10 !s108 1622809971.096000
+Z11 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/altera_mf.v|
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/altera_mf.v|
+Z13 o-work work -O0
+!i10b 1
+!s85 0
+!s101 -O0
+valt3pram
+Z14 !s100 ;iJk82lXgDZWL0hkB=W=[3
+Z15 IV5GmH`CaYEJ`UigzTaSDY1
+Z16 Van=jdh<WnkfkAC7SnL9Nj2
+R4
+R5
+R6
+R7
+Z17 L0 47345
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_aeq_s4
+Z18 !s100 ^jD7RL5?o2`?IfFnlPnLL0
+Z19 I1<7UP2RhjnObcjH1@dVU_1
+Z20 V@E5j__dc@^a;@@8RaPH0c3
+R4
+R5
+R6
+R7
+Z21 L0 50087
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_cal
+Z22 !s100 6MDL=c2aR;GPbALk3SgBL2
+Z23 I6M_ZoHIZH];AR;i]AUgYQ1
+Z24 VRXTXX5n6SY=Rhi@dnZVSX1
+R4
+R5
+R6
+R7
+Z25 L0 49556
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_cal_av
+Z26 !s100 6nJkC@E7DeMQFBXCM42PV2
+Z27 IbdLGb4Yz_b9RK>WPL10SV3
+Z28 V=zWZg8OZz6eFK3NK8Oj@53
+R4
+R5
+R6
+R7
+Z29 L0 49980
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_cal_c3gxb
+Z30 !s100 U00>GS9Rm1XagnJ8^KkQP1
+Z31 I?7Z@A2KX6J99d9>[[e21^3
+Z32 V?If`n[=Fh[^b?ET:b4G1z0
+R4
+R5
+R6
+R7
+Z33 L0 49783
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_cal_mm
+Z34 !s100 gZZ:Z><DZn3cC4@6YRE6V0
+Z35 ILBGlUcDX=f>6aEfm_;Hak3
+Z36 V09mcgZmzPW1:KRk0njHzB2
+R4
+R5
+R6
+R7
+Z37 L0 49658
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_cal_sv
+Z38 !s100 dMmf_@^5`=W4:XG>TJ^LE0
+Z39 IV]PEjBaZ2XlSLBBe>BoFC1
+Z40 V`z;WaCT?dR=Dd7U83UPWd1
+R4
+R5
+R6
+R7
+Z41 L0 49883
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_dfe
+Z42 !s100 aXRF<jKn;`GET<0SCVVFK1
+Z43 I:bCRP>1;1k5SYH9nZ7;F71
+Z44 VaU<RIJXkH24NzlzZAAE?L1
+R4
+R5
+R6
+R7
+Z45 L0 50464
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_eyemon
+Z46 !s100 f6[0bF>6;S^BSich5oHWJ1
+Z47 IGBPoC1X=U`VVM[keSG1oU3
+Z48 V`W64FX3B^;l_=:?DO8e^G3
+R4
+R5
+R6
+R7
+Z49 L0 50184
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtaccumulate
+Z50 !s100 [W4RA;n8f<Ekk7`RO[=WU1
+Z51 I:W?I23@_[eXfS:3<jo8KP3
+Z52 V_E2Z6Ili6zhzh0_[KCUQK3
+R4
+R5
+R6
+R7
+Z53 L0 31636
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtclklock
+Z54 !s100 OLJ7acTJaTVX^za=<k_cE1
+Z55 IQCS>9f<zV<YKO<=6LJCUJ3
+Z56 V7Vi>bi2@bRT@md[U3NeQO1
+R4
+R5
+R6
+R7
+Z57 L0 42308
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtddio_bidir
+Z58 !s100 Yc7^maD^RU@>kG>MBM?Ad0
+Z59 INXV4c7cX=?8X<z4KM^dWW2
+Z60 VZ^GYY?k[6Ji8DUNDflFS@3
+R4
+R5
+R6
+R7
+Z61 L0 43748
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtddio_in
+Z62 !s100 <2`=Hfg;ObY;9>5ZQie_=2
+Z63 I_R4m^1RY[m6U^1Cj=aL]52
+Z64 VHM]GLg3Gf96Y=OU_R;Ek43
+R4
+R5
+R6
+R7
+Z65 L0 43234
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtddio_out
+Z66 !s100 I^N2nl`b953lSWzK[^iHS2
+Z67 IlTed_9KmOS[dmfAg5UDdB3
+Z68 V1PTS_i>Z1Aa1X4cg[@G4X1
+R4
+R5
+R6
+R7
+Z69 L0 43497
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtdpram
+Z70 !s100 GPQF<NoK1n;2b_D?lXFKh1
+Z71 I_>Oe8V@4B5_dnAUWAZNk[1
+Z72 VF6O8[jHJiS]fHfBU8JbaO1
+R4
+R5
+R6
+R7
+Z73 L0 43887
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vALTERA_DEVICE_FAMILIES
+Z74 !s100 HOnIOm?Q?U<aF=_HT7F842
+Z75 IIz6kDUF5k>[g`6nSYLzWZ0
+Z76 VQ9;YfM0O8T<kA:7iO^6?T3
+R4
+R5
+R6
+R7
+Z77 L0 1344
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z78 n@a@l@t@e@r@a_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
+!i10b 1
+!s85 0
+!s101 -O0
+vALTERA_MF_HINT_EVALUATION
+Z79 !s100 5:C^EM=Q_3MgU3L=13Xm53
+Z80 I0GlD53Oe0Bb4;OGj6LhRA0
+Z81 V[TNbJ9iHGC?N;=65V>b_Z0
+R4
+R5
+R6
+R7
+Z82 L0 1222
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z83 n@a@l@t@e@r@a_@m@f_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
+!i10b 1
+!s85 0
+!s101 -O0
+vALTERA_MF_MEMORY_INITIALIZATION
+Z84 !s100 7GdbbPk[n;CQ994VJzQa>1
+Z85 IWL^E5UCN:kAcTASWJCKRm3
+Z86 VdGgz5CJfH?XAb0VYP<f=T2
+R4
+R5
+R6
+R7
+L0 71
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z87 n@a@l@t@e@r@a_@m@f_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
+!i10b 1
+!s85 0
+!s101 -O0
+valtera_std_synchronizer
+Z88 !s100 5k4RVP_4g8V^=>]h53HaW0
+Z89 IXY6IFa=1i>_z[e6<[E2BB1
+Z90 VhR:b7iYB2>`BUe[;KLU_X1
+R4
+R5
+R6
+R7
+Z91 L0 49362
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtera_std_synchronizer_bundle
+Z92 !s100 hTj9XTQl=W]mB9dc>:F`D0
+Z93 IA1=JN:5H`dndRA6=TBPo`2
+Z94 V_Ic[PWl9n@Z`fX2[dFD`41
+R4
+R5
+R6
+R7
+Z95 L0 49521
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtfp_mult
+Z96 !s100 `OUU3LIY]MS;[<kmH6Nb81
+Z97 Ib]hZ06]bQ?RGE]l>?_YY_1
+Z98 VWz]bAzTDMN3A[X>3L[JQ@0
+R4
+R5
+R6
+R7
+Z99 L0 41421
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtlvds_rx
+Z100 !s100 :1cR^TJJ1BD4AKX9196fY3
+Z101 I=fl2E19K<edlJM15KCf0W0
+Z102 V@FKG`]T^Y[]b?^b1>BAR@0
+R4
+R5
+R6
+R7
+Z103 L0 23702
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtlvds_tx
+Z104 !s100 Hmggc5IC5bFS:foPl>F221
+Z105 I1EOUMf45L8Z<k1TKOkHCT2
+Z106 VJ7Qk^?OTGS66OGW0@78W`1
+R4
+R5
+R6
+R7
+Z107 L0 27282
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtmult_accum
+Z108 !s100 ElZ0RfJb]jX]E1TI:Gl0<3
+Z109 IU0J;`7Y>o?URS>o;Y2GAk1
+Z110 VmM2jAg@a=g3VfEfVWcQSU1
+R4
+R5
+R6
+R7
+Z111 L0 31878
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtmult_add
+Z112 !s100 Ko0H=;>9Pk;GOFaXazNZ00
+Z113 Ik;OS9ofN]l>4ZT:RD;_JV0
+Z114 Vm<ajz5>k`3k9[3HWhWd?T3
+R4
+R5
+R6
+R7
+Z115 L0 34083
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtparallel_flash_loader
+Z116 !s100 ?PE<HF7=o]J]^bTDK>0RG2
+Z117 I>clRJL_IM_mXP_E28?O^42
+Z118 VBn0<4>d2=9:jGg3e]ICC_2
+R4
+R5
+R6
+R7
+Z119 L0 52343
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtpll
+Z120 !s100 803g3^0A1fPiiW54XN3i31
+Z121 ImmL@Dg;iO2<aJ?9I:a=_G0
+Z122 V1]6ZE4bASeVHoDRB8`Pz_0
+R4
+R5
+R6
+R7
+Z123 L0 21688
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtserial_flash_loader
+Z124 !s100 Re_g^e<7JCjWieJ@UYjaM1
+Z125 IIBSF7oN8K253SWno5CmM63
+Z126 Vn]I4bMI:Mz0G52=X^7eRQ1
+R4
+R5
+R6
+R7
+Z127 L0 52463
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtshift_taps
+Z128 !s100 @]5c08d5=;mO2J_F]HoM40
+Z129 IOnm1VZ1Xck:SN2jE^o=CL1
+Z130 V5db_IiOi7Ma]:;XkhY@Hi3
+R4
+R5
+R6
+R7
+Z131 L0 49003
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtsource_probe
+Z132 !s100 kT4Ck@og0VRLfehXhWIB93
+Z133 IiTZS@m4NQh`dlLik2G6252
+Z134 VVNX2ObbQVS:4=J>1JXzQg1
+R4
+R5
+R6
+R7
+Z135 L0 52573
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtsqrt
+Z136 !s100 J8OzZz8FDC0hWA_P9dLbW2
+Z137 IKg:>bzHZBak^V2b]952<b2
+Z138 VTeVnDQ_dB9^_a5;a197Xn3
+R4
+R5
+R6
+R7
+Z139 L0 42106
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtsquare
+Z140 !s100 0S=LI3a59=:c25kEa3cjY1
+Z141 IKE1f<bB_nafNY@TPIBoHD1
+Z142 VoBmhAmkLg^P>aUQO?k`H31
+R4
+R5
+R6
+R7
+Z143 L0 49227
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtstratixii_oct
+Z144 !s100 84UGYY?E6ggBUlTjnnSAi2
+Z145 I=Z[KAaihF>i<9^jXV;S:m0
+Z146 V?S_nHHnOUMZJ@SDT=?H]o0
+R4
+R5
+R6
+R7
+Z147 L0 52327
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtsyncram
+Z148 !s100 P?7N]bziOdm[Cf@4dVY??1
+Z149 IzWYCYX1eOWE[9LlabliFR2
+Z150 V`Ccb@foBSI7E_MnA:Q6`40
+R4
+R5
+R6
+R7
+Z151 L0 44418
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valu
+Z152 !s100 Hi3zTOENVI^YoM;Vg:o^E3
+Z153 I^B0WZ02WfnnC]eARHP8a72
+Z154 VKc:bVz32gc5X2ZbjUde9O3
+R4
+R5
+Z155 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/alu.v
+Z156 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/alu.v
+L0 1
+R9
+r1
+31
+Z157 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/alu.v|
+R13
+Z158 !s108 1622809973.540000
+Z159 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+varm_m_cntr
+Z160 !s100 S4agANOI8e_n1a4P:Tei32
+Z161 I_aP;jDP;CV:i`QaR@IkO82
+Z162 VnZ7bTfk5X@6QmGaNoIOHO1
+R4
+R5
+R6
+R7
+Z163 L0 6417
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+varm_n_cntr
+Z164 !s100 mJ`gGTC66O2iG=;C_LLn53
+Z165 IUbla4:Gf2E`]c5;in]z@L3
+Z166 V@_zlT2DBKV43W5lIQ08O:0
+R4
+R5
+R6
+R7
+Z167 L0 6497
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+varm_scale_cntr
+Z168 !s100 QjXF7H[TjT5diZbQR9TFS1
+Z169 IGLoiW=<ZQJS4HamgiCW?h3
+Z170 VXREJKCNbUEi[38_3KRk5Y1
+R4
+R5
+R6
+R7
+Z171 L0 6579
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vcda_m_cntr
+Z172 !s100 81z<lWnjDeR1CEo`a22eE1
+Z173 I6[Wz_mndhKSb7R8?IkeM<2
+Z174 V;Zbk3ONaD><RF`o<@o<ii0
+R4
+R5
+R6
+R7
+Z175 L0 14356
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vcda_n_cntr
+Z176 !s100 L:=@D7AS<fm0zJO6K><`30
+Z177 Izf[>MKoOQnkILDP[m6Sml0
+Z178 VSZ:RS?[@mA;M4Im<[m?9>2
+R4
+R5
+R6
+R7
+Z179 L0 14437
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vcda_scale_cntr
+Z180 !s100 ?Ak5QYF]RPo::hUX6b^AE2
+Z181 IgL@[6TGcdd`F[_11gYJDz3
+Z182 VS<5Xi@4Ba>4H^82]e]BXQ0
+R4
+R5
+R6
+R7
+Z183 L0 14508
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vcla32
+Z184 !s100 Jh4^ALbXSRY;JGCI?@=AZ3
+Z185 I9o>2C5CJ[]cQCJf[aUdFX1
+Z186 VRo_e[E9nI7Z=_Z`3@5<]H0
+R4
+R5
+Z187 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/cla32.v
+Z188 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/cla32.v
+L0 1
+R9
+r1
+31
+Z189 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/cla32.v|
+R13
+Z190 !s108 1622809973.728000
+Z191 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/cla32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vclock_and_mem_clock
+Z192 !s100 8`?Rg:ihFUSg5z=Ue9loz3
+Z193 IfFUS66gzVSiMK;[m4TKJT2
+Z194 V<jDR_JIR@B<ofIFezo[jc2
+R4
+R5
+Z195 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/clock_and_mem_clock.v
+Z196 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/clock_and_mem_clock.v
+L0 1
+R9
+r1
+31
+Z197 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/clock_and_mem_clock.v|
+R13
+Z198 !s108 1622809973.917000
+Z199 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/clock_and_mem_clock.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcycloneiiigl_post_divider
+Z200 !s100 =dVWhH?@j7hBgd@Z0mP[H2
+Z201 IYYbM4zjhZilok]W_0[2hF3
+Z202 VE[DCIBKzdZ_5J1e=a>ciB3
+R4
+R5
+R6
+R7
+Z203 L0 18226
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo
+Z204 !s100 ?EJ`Em;1_CzF7>@Q0FK[H1
+Z205 IAz@PZO^mZUUJEhF^;FBdj2
+Z206 VBelBX1OQY@SOTCS?5IFj@1
+R4
+R5
+R6
+R7
+Z207 L0 31500
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo_async
+Z208 !s100 D[2M`be`d;V[XE=o[O6fd1
+Z209 I<_@JhVh`l1ciiRe6i7hD^2
+Z210 VKBT=[Raice54eLm;kWo7U2
+R4
+R5
+R6
+R7
+Z211 L0 29775
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo_dffpipe
+Z212 !s100 FRhRVDE6UU8aH@hW?=l3i2
+Z213 I:AOEWC7`M>]?9CDKYmD5b3
+Z214 V[2]E0llHYReD`f3Q@PoUN1
+R4
+R5
+R6
+R7
+Z215 L0 29545
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo_fefifo
+Z216 !s100 DICES?V4j6A<7Z?;4UdPJ0
+Z217 IYPgDTg`NSLAWhkARW`Gl61
+Z218 V@Q7OA=F^`dje0[SFMXkS11
+R4
+R5
+R6
+R7
+Z219 L0 29623
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo_low_latency
+Z220 !s100 =S4?<9g<Bjk^J9aK2]eAl1
+Z221 ID;e>]gI>kcegf?FiAGg:W0
+Z222 V>1eoPP7gkSzP2dXL7OP>K1
+R4
+R5
+R6
+R7
+Z223 L0 30570
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo_mixed_widths
+Z224 !s100 VX<8FzI6b124mI>6i_W:I2
+Z225 IdJXHlI:?S?d>WBdlFEW_10
+Z226 VjYGFA?lYJKd?ohH^_Q[M@0
+R4
+R5
+R6
+R7
+Z227 L0 31188
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo_sync
+Z228 !s100 Mc5WV7_YjSHU[ASF7N[XQ3
+Z229 I;XD:lW0Y^jkHAh21VWI2A3
+Z230 VozISN2GIhM_G`e?:08V@@0
+R4
+R5
+R6
+R7
+Z231 L0 30261
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdff32
+Z232 !s100 j6oQz7R0fmD^@73fYgGNI2
+Z233 IPSHnJCK<_TD[O]cbg@R183
+Z234 VUO7_EzIi9>SeN7M;XG9<c0
+R4
+R5
+Z235 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/dff32.v
+Z236 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/dff32.v
+L0 1
+R9
+r1
+31
+Z237 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/dff32.v|
+R13
+Z238 !s108 1622808826.712000
+Z239 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/dff32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdffe32
+Z240 !s100 NXX<eDcP:`21R6I;]?C@l3
+Z241 I7=44KImGMa@cLJY?M[UTg3
+Z242 V6]Tk:7m18<;Eoi?;I3VNB3
+R4
+R5
+Z243 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/dffe32.v
+Z244 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/dffe32.v
+L0 1
+R9
+r1
+31
+Z245 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/dffe32.v|
+R13
+Z246 !s108 1622809974.101000
+Z247 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/dffe32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdffe32_pc
+Z248 !s100 @Kb@F<0bfoZ7FEdF16mh>1
+Z249 IKoYS>?S57K40>;nLhEY8g1
+Z250 V]FJVKXP4de=SdDg`32L8f0
+R4
+R5
+Z251 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/dffe32_pc.v
+Z252 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/dffe32_pc.v
+L0 1
+R9
+r1
+31
+Z253 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/dffe32_pc.v|
+R13
+Z254 !s108 1622809974.288000
+Z255 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/dffe32_pc.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdffp
+Z256 !s100 R9GImSBoho]n3Khaa9`Jm3
+Z257 IiS]l6m3V800?a?XG9NUaU3
+Z258 VheeUl3zRZ0fNAP7CaC4WR1
+R4
+R5
+R6
+R7
+Z259 L0 2195
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdummy_hub
+Z260 !s100 QoP9MSB=N4KSO`HbBLelP3
+Z261 IVF_kTWhi5Oi[j^`_K1[430
+Z262 VoZ4KRLn6iG^^j8eOfh5`]3
+R4
+R5
+R6
+R7
+Z263 L0 51835
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vflexible_lvds_rx
+Z264 !s100 3?5`bPGeG393Bco[4ClG:2
+Z265 IFGU]>Sibc87oKQ?ca<3]a1
+Z266 VlRUL40907KXEJMR:c^AoB3
+R4
+R5
+R6
+R7
+Z267 L0 25749
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vflexible_lvds_tx
+Z268 !s100 gl1`YUb3=I=BFMkB6Yooe3
+Z269 IJU4PdIb0`[_mQI5mGRP>63
+Z270 VgXmTNzk=Z0i;64]lbL>Ej3
+R4
+R5
+R6
+R7
+Z271 L0 28985
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vin_port
+Z272 !s100 UTj[P5_<j9ZPYJEl6VWK@1
+Z273 IfkBNcMWM3D]kC5I:AAEX71
+Z274 VE@bU=5FzU>IBMQiYgUlZa3
+R4
+R5
+Z275 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/in_port.v
+Z276 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/in_port.v
+L0 1
+R9
+r1
+31
+Z277 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/in_port.v|
+R13
+Z278 !s108 1622808827.317000
+Z279 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/in_port.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vio_input
+Z280 !s100 WOzFMn;jJ`SNeDKoH>jkU2
+Z281 I?n1QJ7QkIhX@JznjYFT3?0
+Z282 V3XHKF3I5mOolXBKOkJZdR2
+R4
+R5
+Z283 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/io_input.v
+Z284 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/io_input.v
+L0 1
+R9
+r1
+31
+Z285 !s108 1622808827.503000
+Z286 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/io_input.v|
+Z287 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/io_input.v|
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vio_input_mux
+Z288 !s100 JmkoYb6>LoMzoYO6M@=6N2
+Z289 IjSC6]iMzI62ozge^n018J2
+Z290 VE]W_C0AC;VoBAl[RC@dLB2
+R4
+R5
+R283
+R284
+L0 25
+R9
+r1
+31
+R285
+R286
+R287
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vio_mem
+Z291 !s100 zez`La=mkP@Y<]M6^mT]e0
+Z292 I;z8:a3k6AGfeG@4A<89aa1
+Z293 V4F=DeI2CC7HD?bcLLJ_zE0
+R4
+Z294 w1622802986
+Z295 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/io_mem.v
+Z296 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/io_mem.v
+L0 1
+R9
+r1
+31
+Z297 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/io_mem.v|
+R13
+!i10b 1
+!s85 0
+Z298 !s108 1622809980.899000
+Z299 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/io_mem.v|
+!s101 -O0
+vio_output
+Z300 !s100 h8F=VKiFQ5jNA]QX9>81H2
+Z301 I9n888e<nIDoQ5R_S0B<NM0
+Z302 VW5l2UF[O9aOXNJLmCa7Q23
+R4
+R5
+Z303 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/io_output.v
+Z304 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/io_output.v
+L0 1
+R9
+r1
+31
+Z305 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/io_output.v|
+R13
+Z306 !s108 1622808827.712000
+Z307 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/io_output.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vjtag_tap_controller
+Z308 !s100 ;E6C>?Xz9<gH0D3S0@P1@0
+Z309 InczHT@zdCS4=SlRSEjY__1
+Z310 Vmnmn`[hUOMH6AK2I_QN8Q1
+R4
+R5
+R6
+R7
+Z311 L0 51378
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vlcell
+Z312 !s100 W5o1<JlTe94@5=;oK2Z7b2
+Z313 IL60n_keDTHlH`ic6R>7L?1
+Z314 VJ?L2VaGMcgJV7T`@^5DkR1
+R4
+R5
+R6
+R7
+L0 34
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vlpm_ram_dq_dram
+Z315 !s100 flOiKoD5H9ZCc`AVf>gmM1
+Z316 I^c7?GAdmPmdFoQ7Rj1QF73
+Z317 V;^>UgMFOjF@EZ@A<NMAW`0
+R4
+R5
+Z318 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/lpm_ram_dq_dram.v
+Z319 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/lpm_ram_dq_dram.v
+L0 39
+R9
+r1
+31
+Z320 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/lpm_ram_dq_dram.v|
+R13
+Z321 !s108 1622809976.017000
+Z322 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/lpm_ram_dq_dram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlpm_rom_irom
+Z323 IUBBjdmm3ZgI[8TiX^FBAP2
+Z324 V6I?:oUA0HYdli42?U:6:L0
+R4
+Z325 w1622809967
+Z326 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/lpm_rom_irom.v
+Z327 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/lpm_rom_irom.v
+L0 39
+R9
+r1
+31
+Z328 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/lpm_rom_irom.v|
+R13
+Z329 !s100 ;:mY9fD4mGjP=^XC9Fn;90
+Z330 !s108 1622809976.202000
+Z331 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/lpm_rom_irom.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_cycloneiii_pll
+Z332 !s100 M7SeVoZ]?g;I7M4VG?PV13
+Z333 INh0jL@S?DeKRZzV8jomBA1
+Z334 V8SACR3<jj>]mCQFb;Fhcz1
+R4
+R5
+R6
+R7
+Z335 L0 14635
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z336 n@m@f_cycloneiii_pll
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_cycloneiiigl_m_cntr
+Z337 !s100 IiK<;_5hSmDKDL^:H]z2<3
+Z338 IhMMdNFk?67Sfn`eM<11]Q0
+Z339 V3m_Jz6C;W8>1i>E5DR]XP2
+R4
+R5
+R6
+R7
+Z340 L0 17964
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z341 n@m@f_cycloneiiigl_m_cntr
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_cycloneiiigl_n_cntr
+Z342 !s100 ^5eZ1V3UameHmDIGOfXL20
+Z343 IMZ9iF=B2D0gDX^Ac:ZlgH1
+Z344 VfUZ<Z;akRGDNQkBMOhdC51
+R4
+R5
+R6
+R7
+Z345 L0 18045
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z346 n@m@f_cycloneiiigl_n_cntr
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_cycloneiiigl_pll
+Z347 !s100 ;F>5oPe1[loc5C2bm23D90
+Z348 Ih_ZRig<NAFcdN<2UZMZa_3
+Z349 VX:XbK@6<Z8TFo`ZiKA`8b3
+R4
+R5
+R6
+R7
+Z350 L0 18315
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z351 n@m@f_cycloneiiigl_pll
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_cycloneiiigl_scale_cntr
+Z352 !s100 DI2iLJ=:7LK6;PhK5b_913
+Z353 ITF>gn4cD4Ma@M`[D:UYaQ1
+Z354 V9Q2fNP0aT7@gU`>cZ`B^[1
+R4
+R5
+R6
+R7
+Z355 L0 18116
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z356 n@m@f_cycloneiiigl_scale_cntr
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_pll_reg
+Z357 !s100 ooNbzk;hLe5zI]PQa@?VS1
+Z358 I[O7NBoz_FnL3iTZj<:nWG1
+Z359 VNCKUEDQ^OBUgncngA<V;H2
+R4
+R5
+R6
+R7
+Z360 L0 2552
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z361 n@m@f_pll_reg
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_stratix_pll
+Z362 !s100 h7L1Z8]IMhoU=5ngeC70D2
+Z363 IAXiDS;a94_91KnjB]@Lf>1
+Z364 V<Q6_>0?hlOYD6Z>E5^II12
+R4
+R5
+R6
+R7
+Z365 L0 2611
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z366 n@m@f_stratix_pll
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_stratixii_pll
+Z367 !s100 GJT6JNVPAC@gOA10PV:?72
+Z368 IIGKPabC0<gz3^D3a@1X^G0
+Z369 V]ZTC;GJ]^ZXMZmG8?R3E32
+R4
+R5
+R6
+R7
+Z370 L0 6702
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z371 n@m@f_stratixii_pll
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_stratixiii_pll
+Z372 !s100 `5UEIWf1@T?26lZ6E]l_V0
+Z373 I[67b_X9X=P]R9;B?^8nJ21
+Z374 VPJ`;F;KLMG`Rme6?O:>0a3
+R4
+R5
+R6
+R7
+Z375 L0 10533
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z376 n@m@f_stratixiii_pll
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2x32
+Z377 !s100 zAl4Yimd3kH6oE<74V7L12
+Z378 IH5nBdDdzcKY8VMV8CH?DN0
+Z379 V_8o=]o8CzEDeX@^n?a@zP3
+R4
+R5
+Z380 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/mux2x32.v
+Z381 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/mux2x32.v
+L0 1
+R9
+r1
+31
+Z382 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/mux2x32.v|
+R13
+Z383 !s108 1622809976.599000
+Z384 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/mux2x32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2x5
+Z385 !s100 P4j?W<SIFeTz<NVc9JHMI0
+Z386 IbM;k72fCMdeTjh=0TiFcN1
+Z387 Vah3g>_]Y^Qz2GXD7HR^<<3
+R4
+R5
+Z388 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/mux2x5.v
+Z389 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/mux2x5.v
+L0 1
+R9
+r1
+31
+Z390 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/mux2x5.v|
+R13
+Z391 !s108 1622809976.399000
+Z392 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/mux2x5.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux4x32
+Z393 !s100 :94IGReCl[chYXPM>`gZF1
+Z394 I?T9iVD3MU_F@SjAbWbnVi3
+Z395 VM:hYY`k:C]4^:^k7d8C]M0
+R4
+R5
+Z396 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/mux4x32.v
+Z397 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/mux4x32.v
+L0 1
+R9
+r1
+31
+Z398 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/mux4x32.v|
+R13
+Z399 !s108 1622809976.800000
+Z400 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/mux4x32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vout_port_seg
+Z401 !s100 nokGWlDS1F>`oYBMGC1FA1
+Z402 I3[g]XbEaz1FJ?Hki:5mk[0
+Z403 Vk0JKie7_=K8DGdBHmeCS;1
+R4
+R5
+Z404 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/out_port_seg.v
+Z405 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/out_port_seg.v
+L0 1
+R9
+r1
+31
+Z406 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/out_port_seg.v|
+R13
+Z407 !s108 1622808828.925000
+Z408 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/out_port_seg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vparallel_add
+Z409 !s100 zRj9nHf3L?D=Fh`oS<M[l3
+Z410 I?n>eWNe99gOFOKn<m1Tja0
+Z411 VbbDK2gmh@AWdUES[Zi3TN0
+R4
+R5
+R6
+R7
+Z412 L0 48028
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vpipedereg
+Z413 !s100 ??bT<Dgfk73@cMOK:9Z6<1
+Z414 Il8jCCH2oN_[l_P5`<Sae[3
+Z415 VcA>3gWnZG>eC<;iViLf^f2
+R4
+R5
+Z416 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipedereg.v
+Z417 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipedereg.v
+L0 1
+R9
+r1
+31
+Z418 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipedereg.v|
+R13
+Z419 !s108 1622809976.998000
+Z420 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipedereg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeemreg
+Z421 !s100 i]Oei2?Y9=lG8fY8EYA6C1
+Z422 I_gmMl9]ATgUN5YYRF_cid0
+Z423 Vk_22U9ldAB6ez[a^V`?RJ0
+R4
+R5
+Z424 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeemreg.v
+Z425 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeemreg.v
+L0 1
+R9
+r1
+31
+Z426 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeemreg.v|
+R13
+Z427 !s108 1622809977.182000
+Z428 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeemreg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeexe
+Z429 !s100 SIWCk;LSK_CJ]_WXh3Y091
+Z430 IDH51VhLUXS43T1cQXC93[3
+Z431 V5lbDPf9VM[ZRRDLBF1OUH1
+R4
+R5
+Z432 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeexe.v
+Z433 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeexe.v
+L0 1
+R9
+r1
+31
+Z434 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeexe.v|
+R13
+Z435 !s108 1622809977.367000
+Z436 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeexe.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeid
+Z437 !s100 eKWkTE><m2Dm@Ec0Z4kK72
+Z438 IAlNiH8z?jL^f1[GMz`f1=1
+Z439 V=d:iIU_WY>3D<>PmQ^N6f0
+R4
+R5
+Z440 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeid.v
+Z441 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeid.v
+L0 1
+R9
+r1
+31
+Z442 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeid.v|
+R13
+Z443 !s108 1622809977.553000
+Z444 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeid.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeif
+Z445 !s100 Gb[nKGX__6UfnNCS::obY0
+Z446 In0VT0^>QPJHlKb:W_ADFj1
+Z447 VkmMVfJQLL21E8ei>i:1BT2
+R4
+R5
+Z448 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeif.v
+Z449 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeif.v
+L0 1
+R9
+r1
+31
+Z450 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeif.v|
+R13
+Z451 !s108 1622809977.732000
+Z452 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeif.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeir
+Z453 !s100 3T4En@NCi4fLCi>SLBB@z1
+Z454 I:R`F=NgQQKjXRWH>o?m133
+Z455 VXAID;`^C?92>R1?9o><oA0
+R4
+R5
+Z456 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeir.v
+Z457 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeir.v
+L0 1
+R9
+r1
+31
+Z458 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeir.v|
+R13
+Z459 !s108 1622809977.918000
+Z460 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeir.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeline_computer_main
+Z461 !s100 VD]mV8jF]F]Min5TELVP:0
+Z462 IS[^AAN>WC40lB[YVEOo:=1
+Z463 VLjFHnza;S`Z8c]izEMTbm0
+R4
+Z464 w1622807688
+Z465 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeline_computer_main.v
+Z466 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeline_computer_main.v
+L0 1
+R9
+r1
+31
+Z467 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeline_computer_main.v|
+R13
+Z468 !s108 1622809978.101000
+Z469 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipeline_computer_main.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipelined_computer_sim
+Z470 !s100 hn9hDb_8MP8_m3;_d5fM23
+Z471 IY6UQRN=WW?Dd_7>RL9NO71
+Z472 VKng3S<C`dU>icI4`V1hB^0
+R4
+Z473 w1622808426
+Z474 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipelined_computer_sim.v
+Z475 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipelined_computer_sim.v
+L0 2
+R9
+r1
+31
+Z476 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipelined_computer_sim.v|
+R13
+Z477 !s108 1622809978.280000
+Z478 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipelined_computer_sim.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipemem
+Z479 !s100 @0=4GMc15j2Z7[16e7=812
+Z480 IM82Rk^Z5lGeoPafgf`nfF2
+Z481 VBYlUmDXX>BGMf600T_c9n0
+R4
+Z482 w1622808456
+Z483 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipemem.v
+Z484 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipemem.v
+L0 1
+R9
+r1
+31
+Z485 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipemem.v|
+R13
+Z486 !s108 1622809978.470000
+Z487 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipemem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipemwreg
+Z488 !s100 cNJ?6`JS=RDYNnQL69NdM0
+Z489 ILaLKRN;f_H4;XSXSf2nLK0
+Z490 V?_QTchRGQVg<><eg=A6g32
+R4
+R5
+Z491 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipemwreg.v
+Z492 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipemwreg.v
+L0 1
+R9
+r1
+31
+Z493 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipemwreg.v|
+R13
+Z494 !s108 1622809978.665000
+Z495 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipemwreg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipepc
+Z496 !s100 4]gneMkCkBCCmg]3U69Ih2
+Z497 IEjQgKnf<nDk?9ZnPXRS;j2
+Z498 V?TeI]2Q7YZDQM4R_aiind1
+R4
+R5
+Z499 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipepc.v
+Z500 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipepc.v
+L0 1
+R9
+r1
+31
+Z501 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipepc.v|
+R13
+Z502 !s108 1622809978.848000
+Z503 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/pipepc.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpll_iobuf
+Z504 !s100 XcRj3ehIC=TJiBnR9jEE10
+Z505 IK_[k6Sl5Ee8_BKMV[4WbQ0
+Z506 VEGl7X@h1ghgJczPPMaRcj3
+R4
+R5
+R6
+R7
+Z507 L0 2228
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vregfile
+Z508 !s100 NTW;e2KI0`zbLb1BeSmRz1
+Z509 IRNnzB4;`7MgFdPUERGLUo1
+Z510 VHL?YD<z4Tlb1gm`0^XW@D2
+R4
+R5
+Z511 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/regfile.v
+Z512 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/regfile.v
+L0 1
+R9
+r1
+31
+Z513 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/regfile.v|
+R13
+Z514 !s108 1622809979.037000
+Z515 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/regfile.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_computer
+Z516 !s100 FD:I;AP?Bm0:dhGG2`Q6W1
+Z517 IX:LkK8AfXVE=NKLmMaV@V0
+Z518 VKEJM1baE9C1E^4SXWmDVm2
+R4
+R5
+Z519 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_computer.v
+Z520 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_computer.v
+L0 7
+R9
+r1
+31
+Z521 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_computer.v|
+R13
+Z522 !s108 1622808831.455000
+Z523 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_computer.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_computer_sim
+Z524 !s100 OA^G7_dgD<2DecXGVXSh_0
+Z525 IOUm9l?f@aNlEd9c1?UO4I3
+Z526 V^jiC<6F7]doek[nRMoOol1
+R4
+R5
+Z527 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_computer_sim.v
+Z528 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_computer_sim.v
+L0 26
+R9
+r1
+31
+Z529 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_computer_sim.v|
+R13
+Z530 !s108 1622808831.651000
+Z531 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_computer_sim.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_cpu
+Z532 !s100 K^0=lDWD4MZOQkY=0O7nh1
+Z533 IR`;eC289[`^ZeJm4lUBQ@3
+Z534 V:mi8;^<LZUMNBc_]kEVbj2
+R4
+R5
+Z535 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_cpu.v
+Z536 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_cpu.v
+L0 1
+R9
+r1
+31
+Z537 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_cpu.v|
+R13
+Z538 !s108 1622808831.839000
+Z539 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_cpu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_cu
+Z540 !s100 =318KhQYS6DLZ@<9876]G1
+Z541 IkleHP=z5IY=gKL_[h8JVO2
+Z542 V8@24i;6EPBN64_7cIaS_n3
+R4
+R5
+Z543 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_cu.v
+Z544 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_cu.v
+L0 1
+R9
+r1
+31
+Z545 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_cu.v|
+R13
+Z546 !s108 1622809979.224000
+Z547 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_cu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_datamem
+Z548 !s100 OmS2[4Nd>4<IkZo;=I?XQ0
+Z549 IfKFGG6J0bQ0loEEHh@:IC2
+Z550 Vabezo7ObWfd<^PeFdRYnU1
+R4
+R5
+Z551 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_datamem.v
+Z552 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_datamem.v
+L0 1
+R9
+r1
+31
+Z553 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_datamem.v|
+R13
+Z554 !s108 1622808832.220000
+Z555 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_datamem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_instmem
+Z556 !s100 mmb2AKTzLfd1PiznIDo7c1
+Z557 Iie30jG4JkkQOa9R9A3C0`0
+Z558 VkU`UIUgSeP=c3TJLN64XO2
+R4
+R5
+Z559 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_instmen.v
+Z560 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_instmen.v
+L0 1
+R9
+r1
+31
+Z561 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_instmen.v|
+R13
+Z562 !s108 1622808832.416000
+Z563 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sc_instmen.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vscfifo
+Z564 !s100 @?4Qo>[^=63>oX1n?51@M1
+Z565 IM2QGY^;eFS`F;9Y3=J]<z1
+Z566 VUMV6g0FCa0N3lFO1VmUAB1
+R4
+R5
+R6
+R7
+Z567 L0 48197
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vsevenseg
+Z568 !s100 59MJ^iWXNYo^@mfCI45Ng2
+Z569 IUj1MZGGPNz6>JMlM0T7`e3
+Z570 V<kz4<ET@H::]Aoef`6B9U3
+R4
+R5
+Z571 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sevenseg.v
+Z572 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/sevenseg.v
+L0 1
+R9
+r1
+31
+Z573 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sevenseg.v|
+R13
+Z574 !s108 1622809980.626000
+Z575 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/sevenseg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsignal_gen
+Z576 !s100 k`=Y9=e>1o37W2P:HRSLZ1
+Z577 I4H=0`NNd=aFIndS=2QfJN1
+Z578 VlANQ]2:@NW327hR21XHd@3
+R4
+R5
+R6
+R7
+Z579 L0 50811
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vsld_signaltap
+Z580 !s100 ;]mNGXH:6PEILIiQChNGc1
+Z581 ION@ne6W]8nVG03?`IOG5<1
+Z582 VaPcf`]?TO6X5KHIWncDQB0
+R4
+R5
+R6
+R7
+Z583 L0 52219
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vsld_virtual_jtag
+Z584 !s100 <j=Al?flj?7kPg9NghQM33
+Z585 Id>KY^3]SRDeFMI]LMY;ed0
+Z586 Vf2g7oS=5=F3IO@[SB6kgz2
+R4
+R5
+R6
+R7
+Z587 L0 52092
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vsld_virtual_jtag_basic
+Z588 !s100 l=EE?N4?foTG57F>d@@n<2
+Z589 Ihfk<2>@V@@KT7K9Mk8BQ91
+Z590 VgN1]76z<g[F9Z_FM;6QOV2
+R4
+R5
+R6
+R7
+Z591 L0 52495
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratix_lvds_rx
+Z592 !s100 d=FjjL@KhIIcF=kcdU:I32
+Z593 I_jFCngRHe;5=7m9ZgXT[81
+Z594 V39zBWPn2G7n8FGOMRmNJB0
+R4
+R5
+R6
+R7
+Z595 L0 24912
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratix_tx_outclk
+Z596 !s100 RKaU]]`7g0;j<]H1C:jA82
+Z597 IfXDUMiOXYfOIUNCXUK`G[0
+Z598 Vh80DY6<NJ0Bn98@EoCo8n1
+R4
+R5
+R6
+R7
+Z599 L0 28776
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixgx_dpa_lvds_rx
+Z600 !s100 D0G7Njo1h9z48OE>mjM=j2
+Z601 ITlLdEYSMXb_kk?_<VV8[z2
+Z602 V`[XhBYMJchCjeXnWloPH;3
+R4
+R5
+R6
+R7
+Z603 L0 25020
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixii_lvds_rx
+Z604 !s100 PdH7@;Y]GoPT]Taz9Z?X;0
+Z605 IAK^_FWBUV[BaWdMPJ?fZS0
+Z606 V5D>4DFSRXh3=Nm=hc48Kd2
+R4
+R5
+R6
+R7
+Z607 L0 25423
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixii_tx_outclk
+Z608 !s100 To@cQa8GUMMGID@YMASYF1
+Z609 I0kZVET[JdLBbCg9bUZlKG0
+Z610 V=n_<[`Vzf2Rz<[OlZ?^mI1
+R4
+R5
+R6
+R7
+Z611 L0 28884
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixiii_lvds_rx
+Z612 !s100 ;PSQDEP^^Q8jY80bdI3j12
+Z613 I_Na`m3PN0M0lY5]Ud?[@z1
+Z614 VoUk;[:B=^AmQb8<2mQYcL3
+R4
+R5
+R6
+R7
+Z615 L0 26222
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixiii_lvds_rx_channel
+Z616 !s100 ^:L0`kY7;CWV[cKdZh<:43
+Z617 I<^H@J3znJH^T^[baLIQB63
+Z618 V6g9^E94B=2R;m4N=Eh2zm1
+R4
+R5
+R6
+R7
+Z619 L0 26404
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixiii_lvds_rx_dpa
+Z620 !s100 L]0oID<Sk@^U1]nl0>jkf3
+Z621 Ij[ob1lO:<R0RSH=P`5n2^3
+Z622 VenIPQShS6??nhY:JSTm8<3
+R4
+R5
+R6
+R7
+Z623 L0 27013
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixv_local_clk_divider
+Z624 !s100 e^B`=0BUR1@YI3fFAB[@_2
+Z625 I6C`[LFjKeJ42P:]3Ob0dX2
+Z626 V9QKP]A2;J<z_KOj[g[gGS3
+R4
+R5
+R6
+R7
+Z627 L0 28682
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstx_m_cntr
+Z628 !s100 bk?Dm`OE4HdDQF>mQa2i[2
+Z629 IkN6fYFa5l[[I174Pn6R5T2
+Z630 V:[2:D[_10ghn[bgc=CD302
+R4
+R5
+R6
+R7
+Z631 L0 2254
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstx_n_cntr
+Z632 !s100 jTh7U@@_4l=h?c8;`j2C92
+Z633 IY0oIR?jP7>jLf>Y3^E[4I0
+Z634 V4CiQB5Uz?;=OULO:MD>Eo1
+R4
+R5
+R6
+R7
+Z635 L0 2332
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstx_scale_cntr
+Z636 !s100 0aL?PRMgCSk0DP:mIIkm72
+Z637 IXQfYQ0`2hKhDNMn7Jdzbm2
+Z638 VG8KIUm2mDHoX1DjR8TDdJ1
+R4
+R5
+R6
+R7
+Z639 L0 2417
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vttn_m_cntr
+Z640 !s100 TB8MS7k0jJT`k67Sd;E2D0
+Z641 IlN@R2zEVSnckWQMdzfzb:1
+Z642 ViEB@`bJmQ[jz8=2kGYhDn3
+R4
+R5
+R6
+R7
+Z643 L0 10254
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vttn_n_cntr
+Z644 !s100 jVVna5`eGmWOICId^l:9D2
+Z645 I=]F<>Z_g=4eU6jMj5B7ha0
+Z646 VWh8a]<5HCnf>2<AJGoZ2`0
+R4
+R5
+R6
+R7
+Z647 L0 10335
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vttn_scale_cntr
+Z648 !s100 NOWADSZ>A>KM0E[l^:aMb3
+Z649 IJHX3aQmP9YI]Q2hnWj2n32
+Z650 VXPfdhMTXDmY9JYEiBjd?Q2
+R4
+R5
+R6
+R7
+Z651 L0 10406
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vtwodigits
+!i10b 1
+Z652 !s100 ]:KD4MlZBS4BC=ALP8k<]2
+Z653 Ibbann?CjilYz>35PhfZBU3
+Z654 V96[jm2R`TV4<TR=E1h3FH1
+R4
+Z655 w1622808752
+Z656 8C:/Users/97537/STUDY/Digital_Component_Design/pp_test/twodigits.v
+Z657 FC:/Users/97537/STUDY/Digital_Component_Design/pp_test/twodigits.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1622809981.093000
+!s107 C:/Users/97537/STUDY/Digital_Component_Design/pp_test/twodigits.v|
+Z658 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pp_test/twodigits.v|
+!s101 -O0
+R13

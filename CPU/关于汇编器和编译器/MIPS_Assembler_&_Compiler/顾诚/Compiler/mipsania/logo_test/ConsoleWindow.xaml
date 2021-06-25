@@ -1,0 +1,8 @@
+﻿<Window x:Class="LogoScriptIDE.ConsoleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Console" Height="209" Width="507" Loaded="Window_Loaded" Closing="Window_Closing" ShowInTaskbar="False" WindowStyle="ToolWindow">
+    <Grid Background="AliceBlue">
+        <TextBox BorderThickness="0" Name="ui_textBox" IsReadOnly="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" FontFamily="Consolas" FontSize="14" Background="#FF030000" Foreground="Lime"></TextBox>
+    </Grid>
+</Window>

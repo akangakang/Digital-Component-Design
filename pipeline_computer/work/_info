@@ -1,0 +1,2145 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\97537\STUDY\Digital_Component_Design\pipeline_computer
+va_graycounter
+Z1 !s100 jN^DJoG@SPXA2H1n2W9D^3
+Z2 I;]eOlgZL4BGaVEN559dSY2
+Z3 VDf]LUSeG959GAjb>XD]GQ3
+Z4 dC:\Users\97537\STUDY\Digital_Component_Design\pipeline_computer
+Z5 w1622804771
+Z6 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/altera_mf.v
+Z7 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/altera_mf.v
+Z8 L0 49136
+Z9 OV;L;10.1d;51
+r1
+31
+Z10 !s108 1624290483.233000
+Z11 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/altera_mf.v|
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/altera_mf.v|
+Z13 o-work work -O0
+!i10b 1
+!s85 0
+!s101 -O0
+valt3pram
+Z14 !s100 N1_5G4D7S3=Q3Z8co8P]K2
+Z15 IC?J661hQ[aHDzEj>6SFLX2
+Z16 Van=jdh<WnkfkAC7SnL9Nj2
+R4
+R5
+R6
+R7
+Z17 L0 47345
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_aeq_s4
+Z18 !s100 zE_LEE`l<dzGWDF:;Thlj2
+Z19 IX6G[T4m`YN2SHZ7UbUiQ@1
+Z20 V@E5j__dc@^a;@@8RaPH0c3
+R4
+R5
+R6
+R7
+Z21 L0 50087
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_cal
+Z22 !s100 75Jn<9Xb507WcB`hfFz<^0
+Z23 IG6KdX5Ok9a`;BiQcn?9U?2
+Z24 VRXTXX5n6SY=Rhi@dnZVSX1
+R4
+R5
+R6
+R7
+Z25 L0 49556
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_cal_av
+Z26 !s100 zLMfl3G3d7k@R=?Ed09jQ2
+Z27 Id=nOGA91]dPE=gVgghMki2
+Z28 V=zWZg8OZz6eFK3NK8Oj@53
+R4
+R5
+R6
+R7
+Z29 L0 49980
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_cal_c3gxb
+Z30 !s100 NoGZZ5<BCiKPALl@[jO>I1
+Z31 In[FfTLiVn1A:cTjU?^_f]2
+Z32 V?If`n[=Fh[^b?ET:b4G1z0
+R4
+R5
+R6
+R7
+Z33 L0 49783
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_cal_mm
+Z34 !s100 QdL`jBa6kPUk536c]N^Ln3
+Z35 Ih:EB`DFiZLZ0[;AHK131A1
+Z36 V09mcgZmzPW1:KRk0njHzB2
+R4
+R5
+R6
+R7
+Z37 L0 49658
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_cal_sv
+Z38 !s100 HWiME`oH7E@9JKJeEdbJL1
+Z39 I^GL>eSohoS160hF3@na_^0
+Z40 V`z;WaCT?dR=Dd7U83UPWd1
+R4
+R5
+R6
+R7
+Z41 L0 49883
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_dfe
+Z42 !s100 9[gTMJYO`:h7Eon;m]5g@0
+Z43 IMMan91PKf@E6]=bHYec<a1
+Z44 VaU<RIJXkH24NzlzZAAE?L1
+R4
+R5
+R6
+R7
+Z45 L0 50464
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valt_eyemon
+Z46 !s100 <7fjz[?55nUh_Z1XhlOi=0
+Z47 IbVYI?<T26KmdRAGaN9EO>0
+Z48 V`W64FX3B^;l_=:?DO8e^G3
+R4
+R5
+R6
+R7
+Z49 L0 50184
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtaccumulate
+Z50 !s100 g38gaASZ6U;H^1>c2N?zC1
+Z51 Ih0:HYMa;ZlchDCn?Oa_G<1
+Z52 V_E2Z6Ili6zhzh0_[KCUQK3
+R4
+R5
+R6
+R7
+Z53 L0 31636
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtclklock
+Z54 !s100 j0MOl1B5Qj:8i@VnWdU2F2
+Z55 IKVcC`2[ZP8ImFfd0U=]TK0
+Z56 V7Vi>bi2@bRT@md[U3NeQO1
+R4
+R5
+R6
+R7
+Z57 L0 42308
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtddio_bidir
+Z58 !s100 KQ1_b:]b9Me?0HBOOa;5E1
+Z59 IXzIkG;jX1SgbbkK]5OW7T3
+Z60 VZ^GYY?k[6Ji8DUNDflFS@3
+R4
+R5
+R6
+R7
+Z61 L0 43748
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtddio_in
+Z62 !s100 AmN_5U<o@zC]B6<kEB87e1
+Z63 IYgMfHYJ_Z[CCm`zhagG3=2
+Z64 VHM]GLg3Gf96Y=OU_R;Ek43
+R4
+R5
+R6
+R7
+Z65 L0 43234
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtddio_out
+Z66 !s100 3T[N<YnfjAD<K?DFo]F0z3
+Z67 I[4jM[GVAJ_TG0M_e=Ig^32
+Z68 V1PTS_i>Z1Aa1X4cg[@G4X1
+R4
+R5
+R6
+R7
+Z69 L0 43497
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtdpram
+Z70 !s100 f;87OZWTWkHin:2z=bW3k3
+Z71 I@bSLQIHMj6DE><?0i4zCi3
+Z72 VF6O8[jHJiS]fHfBU8JbaO1
+R4
+R5
+R6
+R7
+Z73 L0 43887
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vALTERA_DEVICE_FAMILIES
+Z74 !s100 <?fMJ<;?D@ah_bM``<zXz0
+Z75 IT_Q<C^a]bIiQkH2=1Shfn3
+Z76 VQ9;YfM0O8T<kA:7iO^6?T3
+R4
+R5
+R6
+R7
+Z77 L0 1344
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z78 n@a@l@t@e@r@a_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
+!i10b 1
+!s85 0
+!s101 -O0
+vALTERA_MF_HINT_EVALUATION
+Z79 !s100 ;SUl;N3[U]VegjRaEj?8;1
+Z80 IN5e8=CKNg:Gdh9lQ1h9jm0
+Z81 V[TNbJ9iHGC?N;=65V>b_Z0
+R4
+R5
+R6
+R7
+Z82 L0 1222
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z83 n@a@l@t@e@r@a_@m@f_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
+!i10b 1
+!s85 0
+!s101 -O0
+vALTERA_MF_MEMORY_INITIALIZATION
+Z84 !s100 fcaBEP@LDMcH1k;3DH;g80
+Z85 IbFO2j3ORn;1gZci0W:3d^1
+Z86 VdGgz5CJfH?XAb0VYP<f=T2
+R4
+R5
+R6
+R7
+L0 71
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z87 n@a@l@t@e@r@a_@m@f_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
+!i10b 1
+!s85 0
+!s101 -O0
+valtera_std_synchronizer
+Z88 !s100 7?zHhzOmao[`ak]9N@fWT3
+Z89 IUMJ5Tfzd0@6ie94PPkZVU1
+Z90 VhR:b7iYB2>`BUe[;KLU_X1
+R4
+R5
+R6
+R7
+Z91 L0 49362
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtera_std_synchronizer_bundle
+Z92 !s100 2ncnWkKD`=W:f]jaehHm]2
+Z93 IQ5TOX>k0iNR:Eh2k8>7bS3
+Z94 V_Ic[PWl9n@Z`fX2[dFD`41
+R4
+R5
+R6
+R7
+Z95 L0 49521
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtfp_mult
+Z96 !s100 b84GLS_C6E89_5NZA4d;?1
+Z97 IezTQA2[_cKnjVGEA2R23Y2
+Z98 VWz]bAzTDMN3A[X>3L[JQ@0
+R4
+R5
+R6
+R7
+Z99 L0 41421
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtlvds_rx
+Z100 !s100 kBa1i_3E716>b><6lgEaZ2
+Z101 ImlcYZS;YQ;oND891EF6N@0
+Z102 V@FKG`]T^Y[]b?^b1>BAR@0
+R4
+R5
+R6
+R7
+Z103 L0 23702
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtlvds_tx
+Z104 !s100 e3kZ5PUiQ?KPA52cK66JR3
+Z105 IB0B0nLFdWlLUJQTnlNHgW2
+Z106 VJ7Qk^?OTGS66OGW0@78W`1
+R4
+R5
+R6
+R7
+Z107 L0 27282
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtmult_accum
+Z108 !s100 RMUDD=4kc3P9O2<4_H[MF2
+Z109 IzKShPiM1J@e3o@b9zT5Ae3
+Z110 VmM2jAg@a=g3VfEfVWcQSU1
+R4
+R5
+R6
+R7
+Z111 L0 31878
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtmult_add
+Z112 !s100 AAnE3g?nXFYl?E>cKZ8Z@1
+Z113 IUKEdRDh9:mgZ^W]f@a9JJ3
+Z114 Vm<ajz5>k`3k9[3HWhWd?T3
+R4
+R5
+R6
+R7
+Z115 L0 34083
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtparallel_flash_loader
+Z116 !s100 P`FX5;[Q8P?eIJCC>GgJg2
+Z117 I8?eJO8=2;iZiK98YTRgZQ1
+Z118 VBn0<4>d2=9:jGg3e]ICC_2
+R4
+R5
+R6
+R7
+Z119 L0 52343
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtpll
+Z120 !s100 ^z^Z<9_H094`4WKn?WA6e2
+Z121 IVPXJXc`Gg8Y<ab_Q]ebUi2
+Z122 V1]6ZE4bASeVHoDRB8`Pz_0
+R4
+R5
+R6
+R7
+Z123 L0 21688
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtserial_flash_loader
+Z124 !s100 ^Li4jOc5EHzAMTOmh`z743
+Z125 I@<4VefFza`>OGLMmaZl^@1
+Z126 Vn]I4bMI:Mz0G52=X^7eRQ1
+R4
+R5
+R6
+R7
+Z127 L0 52463
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtshift_taps
+Z128 !s100 M<jIMW8kh[ggnEZ3VOF@21
+Z129 IoDRgJUG[cMePF9Xh:c1e:1
+Z130 V5db_IiOi7Ma]:;XkhY@Hi3
+R4
+R5
+R6
+R7
+Z131 L0 49003
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtsource_probe
+Z132 !s100 kY>3RJR7?oj<Jo^VC44]X3
+Z133 IJeOJa3eF0e:05MmLf>2OW1
+Z134 VVNX2ObbQVS:4=J>1JXzQg1
+R4
+R5
+R6
+R7
+Z135 L0 52573
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtsqrt
+Z136 !s100 BQlo04Yb=imK;L9BfgX5C0
+Z137 IP;a`m^5V^MJcS<bZYJWOc3
+Z138 VTeVnDQ_dB9^_a5;a197Xn3
+R4
+R5
+R6
+R7
+Z139 L0 42106
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtsquare
+Z140 !s100 ?Y@Tm<<MB=N?Bodh>1Ri>0
+Z141 I>b@[5d=;=QbzGB5QOd<8B3
+Z142 VoBmhAmkLg^P>aUQO?k`H31
+R4
+R5
+R6
+R7
+Z143 L0 49227
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtstratixii_oct
+Z144 !s100 E@YMVXSUCYdoOc64SVnB_2
+Z145 I6l=B:`Rg5;m[j7cmk8:FH0
+Z146 V?S_nHHnOUMZJ@SDT=?H]o0
+R4
+R5
+R6
+R7
+Z147 L0 52327
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valtsyncram
+Z148 !s100 6<oE=>9nJUk?SfmICBcj_3
+Z149 IG@kS@N1;[idNnkkT1U]La3
+Z150 V`Ccb@foBSI7E_MnA:Q6`40
+R4
+R5
+R6
+R7
+Z151 L0 44418
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+valu
+Z152 !s100 _CWoR0AA=]8RW0nTY[0040
+Z153 I7>Cj`5Mz:`_1YGR8k?6>^1
+Z154 VKc:bVz32gc5X2ZbjUde9O3
+R4
+Z155 w1624288918
+Z156 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/alu.v
+Z157 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/alu.v
+L0 1
+R9
+r1
+31
+Z158 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/alu.v|
+R13
+Z159 !s108 1624290485.166000
+Z160 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+varm_m_cntr
+Z161 !s100 e:M<h:j8hW>6A@X728ZNJ3
+Z162 I^>niQ=am8bUPVGSl4nc170
+Z163 VnZ7bTfk5X@6QmGaNoIOHO1
+R4
+R5
+R6
+R7
+Z164 L0 6417
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+varm_n_cntr
+Z165 !s100 fA7NkZoo4e;k7@Qm:AoQ33
+Z166 IQA_m1nAh2RDZNSbFI]Sbj1
+Z167 V@_zlT2DBKV43W5lIQ08O:0
+R4
+R5
+R6
+R7
+Z168 L0 6497
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+varm_scale_cntr
+Z169 !s100 >RoW@<FS:4P]`eazUW>Kk1
+Z170 IRPX14J^ieV1`O4<C9?`J`2
+Z171 VXREJKCNbUEi[38_3KRk5Y1
+R4
+R5
+R6
+R7
+Z172 L0 6579
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vcda_m_cntr
+Z173 !s100 jA8FKAG9>?O;1Q`kM]AIQ2
+Z174 IMDFGA`F9jo5OI2X<?R:nd3
+Z175 V;Zbk3ONaD><RF`o<@o<ii0
+R4
+R5
+R6
+R7
+Z176 L0 14356
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vcda_n_cntr
+Z177 !s100 =c0TQ^[6zGf`B^6NBFCVM1
+Z178 ICAHEoQFAT>bdATIJ6_kO50
+Z179 VSZ:RS?[@mA;M4Im<[m?9>2
+R4
+R5
+R6
+R7
+Z180 L0 14437
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vcda_scale_cntr
+Z181 !s100 `TF7aD@g5F6ofb@O]IJ?_3
+Z182 IEKd?S:1OF[VEa<dLWBo[E0
+Z183 VS<5Xi@4Ba>4H^82]e]BXQ0
+R4
+R5
+R6
+R7
+Z184 L0 14508
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vcla32
+Z185 !s100 mzUO5C5Jk;EU0FfYZY8[N1
+Z186 I2j6i7l=ZSPiOL@b>6B:z61
+Z187 VRo_e[E9nI7Z=_Z`3@5<]H0
+R4
+Z188 w1621764977
+Z189 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/cla32.v
+Z190 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/cla32.v
+L0 1
+R9
+r1
+31
+Z191 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/cla32.v|
+R13
+Z192 !s108 1624290485.237000
+Z193 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/cla32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vclock_and_mem_clock
+Z194 !s100 @2[m^3WG?jIiJBDcA;AkP0
+Z195 IJkYC`T=jc9ZL3i<No0e^L0
+Z196 V<jDR_JIR@B<ofIFezo[jc2
+R4
+Z197 w1622802615
+Z198 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/clock_and_mem_clock.v
+Z199 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/clock_and_mem_clock.v
+L0 1
+R9
+r1
+31
+Z200 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/clock_and_mem_clock.v|
+R13
+Z201 !s108 1624290485.310000
+Z202 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/clock_and_mem_clock.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcycloneiiigl_post_divider
+Z203 !s100 kU:0924zH_XH>7zQR8h^82
+Z204 Ig`MF6fU4a[J1@KDne6Sm03
+Z205 VE[DCIBKzdZ_5J1e=a>ciB3
+R4
+R5
+R6
+R7
+Z206 L0 18226
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo
+Z207 !s100 2j>ZgdnGLVX<M^M4Fo8J71
+Z208 IW<]5Ln?1iUo7?Q^h3AdCE2
+Z209 VBelBX1OQY@SOTCS?5IFj@1
+R4
+R5
+R6
+R7
+Z210 L0 31500
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo_async
+Z211 !s100 Fk[>5NiIYOMZbG]PE6Bkj1
+Z212 IOWXcI`Tn4A68d4RhacIGB1
+Z213 VKBT=[Raice54eLm;kWo7U2
+R4
+R5
+R6
+R7
+Z214 L0 29775
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo_dffpipe
+Z215 !s100 OB>5^l`dEYCUhzcaN]^3l2
+Z216 IQNJm@X1=BD6lhB`5jTaYH3
+Z217 V[2]E0llHYReD`f3Q@PoUN1
+R4
+R5
+R6
+R7
+Z218 L0 29545
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo_fefifo
+Z219 !s100 nhc[7NWMf9[d8>>0V?AUZ3
+Z220 I8e;f5d;HUS<OKXJRe[JnW3
+Z221 V@Q7OA=F^`dje0[SFMXkS11
+R4
+R5
+R6
+R7
+Z222 L0 29623
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo_low_latency
+Z223 !s100 A_18c4J]D41]m[?=DnjRS3
+Z224 IJ7iWR?7XT2<k3mNbdh<jF2
+Z225 V>1eoPP7gkSzP2dXL7OP>K1
+R4
+R5
+R6
+R7
+Z226 L0 30570
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo_mixed_widths
+Z227 !s100 T`P4nd[m`3IZU8z^h4SH61
+Z228 Iz3>3XGjQ>mXJJRe:PF;2=0
+Z229 VjYGFA?lYJKd?ohH^_Q[M@0
+R4
+R5
+R6
+R7
+Z230 L0 31188
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdcfifo_sync
+Z231 !s100 UhgM5=]iDZN6UBYB;6K_D3
+Z232 I@@E7@[?i[=Wj@m04A3^>O0
+Z233 VozISN2GIhM_G`e?:08V@@0
+R4
+R5
+R6
+R7
+Z234 L0 30261
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdffe32
+Z235 !s100 JP5=5EEJZEEmi;;7R4@L_2
+Z236 I^?3H1KTod?1EX=Z@H8A_n1
+Z237 V6]Tk:7m18<;Eoi?;I3VNB3
+R4
+Z238 w1622805436
+Z239 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/dffe32.v
+Z240 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/dffe32.v
+L0 1
+R9
+r1
+31
+Z241 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/dffe32.v|
+R13
+Z242 !s108 1624290485.380000
+Z243 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/dffe32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdffe32_pc
+Z244 !s100 V>jCTB8zU4NCFZYM;;07b0
+Z245 IBnBJY>m7QPOLGAoIXEVL`0
+Z246 V]FJVKXP4de=SdDg`32L8f0
+R4
+Z247 w1622818696
+Z248 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/dffe32_pc.v
+Z249 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/dffe32_pc.v
+L0 1
+R9
+r1
+31
+Z250 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/dffe32_pc.v|
+R13
+Z251 !s108 1624290485.483000
+Z252 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/dffe32_pc.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdffp
+Z253 !s100 G_dbiEkn90UGm?Hl0ZS2f3
+Z254 I;8:iHbUec9e@h2_dgLk8K3
+Z255 VheeUl3zRZ0fNAP7CaC4WR1
+R4
+R5
+R6
+R7
+Z256 L0 2195
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vdummy_hub
+Z257 !s100 iEWLaHl]0GlS1gg?iVozR3
+Z258 IW[34OXhC00n<I34?bTC]G2
+Z259 VoZ4KRLn6iG^^j8eOfh5`]3
+R4
+R5
+R6
+R7
+Z260 L0 51835
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vflexible_lvds_rx
+Z261 !s100 G34Y8daFGHD^5g93f8Ji?1
+Z262 I9GinCMPg@3GzRAJZIVlba3
+Z263 VlRUL40907KXEJMR:c^AoB3
+R4
+R5
+R6
+R7
+Z264 L0 25749
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vflexible_lvds_tx
+Z265 !s100 i3kz:TFde^Xm>]C<TGfV22
+Z266 I1a9S?RRbaQUXz88@gY3[70
+Z267 VgXmTNzk=Z0i;64]lbL>Ej3
+R4
+R5
+R6
+R7
+Z268 L0 28985
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vio_mem
+Z269 !s100 7Jhf=f]<]hc?0BnM:kKWF3
+Z270 In2Ql2CJh5a2J6Xkk1RiEH3
+Z271 V4F=DeI2CC7HD?bcLLJ_zE0
+R4
+Z272 w1624288857
+Z273 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/io_mem.v
+Z274 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/io_mem.v
+L0 1
+R9
+r1
+31
+Z275 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/io_mem.v|
+R13
+Z276 !s108 1624290485.560000
+Z277 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/io_mem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vjtag_tap_controller
+Z278 !s100 [Hzkbcghd6od`mDP^BZ630
+Z279 IaE[efX3Aa2NU4N9lTRFEA1
+Z280 Vmnmn`[hUOMH6AK2I_QN8Q1
+R4
+R5
+R6
+R7
+Z281 L0 51378
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vlcell
+Z282 !s100 :2Xb]Ij1Ye9?R4Rbz_5113
+Z283 IRX`TbdQe3=FZhGZ[60<2z1
+Z284 VJ?L2VaGMcgJV7T`@^5DkR1
+R4
+R5
+R6
+R7
+L0 34
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vlpm_ram_dq_dram
+Z285 !s100 ?LFa:FdbM<=8]logW>aj`1
+Z286 IK@nH8SL75=_ElCDnO;b7U1
+Z287 V;^>UgMFOjF@EZ@A<NMAW`0
+R4
+Z288 w1622806109
+Z289 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/lpm_ram_dq_dram.v
+Z290 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/lpm_ram_dq_dram.v
+L0 39
+R9
+r1
+31
+Z291 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/lpm_ram_dq_dram.v|
+R13
+Z292 !s108 1624290485.656000
+Z293 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/lpm_ram_dq_dram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlpm_rom_irom
+Z294 !s100 263Fjf[<@mG8DZ??R@BFl0
+Z295 ICFUI01hPk;EociJGM:Adz1
+Z296 V6I?:oUA0HYdli42?U:6:L0
+R4
+Z297 w1624288837
+Z298 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/lpm_rom_irom.v
+Z299 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/lpm_rom_irom.v
+L0 39
+R9
+r1
+31
+Z300 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/lpm_rom_irom.v|
+R13
+Z301 !s108 1624290485.734000
+Z302 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/lpm_rom_irom.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_cycloneiii_pll
+Z303 !s100 f@_eg>Z0nDGQF54bK3;K@3
+Z304 Izc8P7cXfUQYo[iIV<V2Q81
+Z305 V8SACR3<jj>]mCQFb;Fhcz1
+R4
+R5
+R6
+R7
+Z306 L0 14635
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z307 n@m@f_cycloneiii_pll
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_cycloneiiigl_m_cntr
+Z308 !s100 ]efQVeOJ`SOWPQkDzE0BE1
+Z309 ISEaLYL;J?1bG[S55ZPEko3
+Z310 V3m_Jz6C;W8>1i>E5DR]XP2
+R4
+R5
+R6
+R7
+Z311 L0 17964
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z312 n@m@f_cycloneiiigl_m_cntr
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_cycloneiiigl_n_cntr
+Z313 !s100 EA_iB7`h:?G^8AH1aSA473
+Z314 IibRdi9nE7T4:;lN<dGPOc2
+Z315 VfUZ<Z;akRGDNQkBMOhdC51
+R4
+R5
+R6
+R7
+Z316 L0 18045
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z317 n@m@f_cycloneiiigl_n_cntr
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_cycloneiiigl_pll
+Z318 !s100 B8=j3YIXT0Bh2eJ[XDFGW3
+Z319 I9>HJiHUZBK^B7[C>3Boh03
+Z320 VX:XbK@6<Z8TFo`ZiKA`8b3
+R4
+R5
+R6
+R7
+Z321 L0 18315
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z322 n@m@f_cycloneiiigl_pll
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_cycloneiiigl_scale_cntr
+Z323 !s100 3JlHGGzI0L1ZZH?k=S=0l2
+Z324 ISP?3g7`e@cD4K5o?efMK33
+Z325 V9Q2fNP0aT7@gU`>cZ`B^[1
+R4
+R5
+R6
+R7
+Z326 L0 18116
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z327 n@m@f_cycloneiiigl_scale_cntr
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_pll_reg
+Z328 !s100 FR9EzY`cTQk3YGK2haY[N2
+Z329 Ie2[<=fWW6VV=T>maI>h^a2
+Z330 VNCKUEDQ^OBUgncngA<V;H2
+R4
+R5
+R6
+R7
+Z331 L0 2552
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z332 n@m@f_pll_reg
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_stratix_pll
+Z333 !s100 :df[kXUm<lk9R=M>zi<;?2
+Z334 I2VTUc1X6=Zfeg``GT]YGO0
+Z335 V<Q6_>0?hlOYD6Z>E5^II12
+R4
+R5
+R6
+R7
+Z336 L0 2611
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z337 n@m@f_stratix_pll
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_stratixii_pll
+Z338 !s100 FPb1Ga2gZ343cH[62YYlQ1
+Z339 IS_[MJ[AUgc=BXNj^]P@TT2
+Z340 V]ZTC;GJ]^ZXMZmG8?R3E32
+R4
+R5
+R6
+R7
+Z341 L0 6702
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z342 n@m@f_stratixii_pll
+!i10b 1
+!s85 0
+!s101 -O0
+vMF_stratixiii_pll
+Z343 !s100 G8MWSj:=OhA[nfg6hg02I0
+Z344 I=o1j7cMzg=U^Ceio;mFC@0
+Z345 VPJ`;F;KLMG`Rme6?O:>0a3
+R4
+R5
+R6
+R7
+Z346 L0 10533
+R9
+r1
+31
+R10
+R11
+R12
+R13
+Z347 n@m@f_stratixiii_pll
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2x32
+Z348 !s100 k^74X];>Qz;B3AHIgYb;T2
+Z349 IXE;D[oM;9J?TPNOoaR7>A3
+Z350 V_8o=]o8CzEDeX@^n?a@zP3
+R4
+Z351 w1621764896
+Z352 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/mux2x32.v
+Z353 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/mux2x32.v
+L0 1
+R9
+r1
+31
+Z354 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/mux2x32.v|
+R13
+Z355 !s108 1624290485.878000
+Z356 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/mux2x32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2x5
+Z357 !s100 ZN:h<fTZoB;`^@[7UGP<O1
+Z358 IT09fgYk1eO`9^?6=NU5<_3
+Z359 Vah3g>_]Y^Qz2GXD7HR^<<3
+R4
+Z360 w1621831533
+Z361 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/mux2x5.v
+Z362 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/mux2x5.v
+L0 1
+R9
+r1
+31
+Z363 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/mux2x5.v|
+R13
+Z364 !s108 1624290485.808000
+Z365 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/mux2x5.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux4x32
+Z366 !s100 bEbW<:[B?2@fb<4h`OP<]0
+Z367 I_C_2QIKl@6OCS5gC3E]HU2
+Z368 VM:hYY`k:C]4^:^k7d8C]M0
+R4
+Z369 w1622811464
+Z370 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/mux4x32.v
+Z371 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/mux4x32.v
+L0 1
+R9
+r1
+31
+Z372 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/mux4x32.v|
+R13
+Z373 !s108 1624290485.947000
+Z374 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/mux4x32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vparallel_add
+Z375 !s100 LUlVoXNb:oo>?V2KZ`W8?3
+Z376 ImXb8n;[okVblZ;F7L^0T10
+Z377 VbbDK2gmh@AWdUES[Zi3TN0
+R4
+R5
+R6
+R7
+Z378 L0 48028
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vpipedereg
+Z379 !s100 6HWlYW_Ei7SMESZ:LQQUW2
+Z380 I1i@WBo9XX:fIU@VT]_0dE2
+Z381 VcA>3gWnZG>eC<;iViLf^f2
+R4
+Z382 w1622810099
+Z383 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipedereg.v
+Z384 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipedereg.v
+L0 1
+R9
+r1
+31
+Z385 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipedereg.v|
+R13
+Z386 !s108 1624290486.041000
+Z387 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipedereg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeemreg
+Z388 !s100 BEOMzZ<iif2hVI?5X<aC=2
+Z389 IE_nmL8RgL:KL>1dcGZEc[2
+Z390 Vk_22U9ldAB6ez[a^V`?RJ0
+R4
+Z391 w1622805591
+Z392 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeemreg.v
+Z393 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeemreg.v
+L0 1
+R9
+r1
+31
+Z394 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeemreg.v|
+R13
+Z395 !s108 1624290486.110000
+Z396 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeemreg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeexe
+Z397 !s100 clX;Ua2NnNRZB@M`o6RCI2
+Z398 IiV4el6n@G1UMh;o4eHhk>1
+Z399 V5lbDPf9VM[ZRRDLBF1OUH1
+R4
+Z400 w1622810185
+Z401 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeexe.v
+Z402 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeexe.v
+L0 1
+R9
+r1
+31
+Z403 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeexe.v|
+R13
+Z404 !s108 1624290486.182000
+Z405 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeexe.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeid
+Z406 !s100 ;0`>1Ph6G4H;DjUR4Bc:l0
+Z407 I2a@m`m`M0;aGCGhDUb[En3
+Z408 V=d:iIU_WY>3D<>PmQ^N6f0
+R4
+Z409 w1622810198
+Z410 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeid.v
+Z411 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeid.v
+L0 1
+R9
+r1
+31
+Z412 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeid.v|
+R13
+Z413 !s108 1624290488.413000
+Z414 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeid.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeif
+Z415 !s100 ^Xj@OzilSnO<H3SmkBCI72
+Z416 I9=agJX786Y6DSK?HPCEN80
+Z417 VkmMVfJQLL21E8ei>i:1BT2
+R4
+Z418 w1622810920
+Z419 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeif.v
+Z420 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeif.v
+L0 1
+R9
+r1
+31
+Z421 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeif.v|
+R13
+Z422 !s108 1624290488.485000
+Z423 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeif.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeir
+Z424 !s100 mdYZf9j^EecM:8<50NOL[0
+Z425 IUUQh]=djLkdkIi^B;g;ZF1
+Z426 VXAID;`^C?92>R1?9o><oA0
+R4
+Z427 w1622810919
+Z428 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeir.v
+Z429 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeir.v
+L0 1
+R9
+r1
+31
+Z430 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeir.v|
+R13
+Z431 !s108 1624290488.558000
+Z432 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeir.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipeline_computer
+Z433 !s100 :GBEG[@121]j3D@K7`X4R3
+Z434 IYn@TM>`3lA2oG__1fl_BZ1
+Z435 VXQjL=JM7[cl3eYGFHJHHO0
+R4
+Z436 w1622811302
+Z437 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeline_computer.v
+Z438 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeline_computer.v
+L0 1
+R9
+r1
+31
+Z439 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeline_computer.v|
+R13
+Z440 !s108 1624290488.654000
+Z441 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeline_computer.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipelined_computer_sim
+Z442 !s100 FgR2MIo<PmAQ=]>;F]8UF2
+Z443 I?HgXCV_P@j:^EE;`EYBzV2
+Z444 VKng3S<C`dU>icI4`V1hB^0
+R4
+Z445 w1622812091
+Z446 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeline_computer_sim.v
+Z447 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeline_computer_sim.v
+L0 2
+R9
+r1
+31
+Z448 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeline_computer_sim.v|
+R13
+Z449 !s108 1624290488.723000
+Z450 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipeline_computer_sim.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipemem
+Z451 !s100 hOd@20gV?Vd^b[n9he?EF2
+Z452 InI7McQ`j_eH2`;HC4a8iY2
+Z453 VBYlUmDXX>BGMf600T_c9n0
+R4
+Z454 w1622811505
+Z455 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipemem.v
+Z456 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipemem.v
+L0 1
+R9
+r1
+31
+Z457 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipemem.v|
+R13
+Z458 !s108 1624290488.790000
+Z459 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipemem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipemwreg
+Z460 !s100 ET2I]EKRA2NFd<7<lDoRM1
+Z461 I7MJX3H39HEgWL>5[z^6c`3
+Z462 V?_QTchRGQVg<><eg=A6g32
+R4
+Z463 w1622811213
+Z464 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipemwreg.v
+Z465 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipemwreg.v
+L0 1
+R9
+r1
+31
+Z466 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipemwreg.v|
+R13
+Z467 !s108 1624290488.857000
+Z468 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipemwreg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpipepc
+Z469 !s100 maHnmUDNN;OiW92?E?6Lz0
+Z470 IM@HIBn;eZoIj7?^oKISgl3
+Z471 V?TeI]2Q7YZDQM4R_aiind1
+R4
+Z472 w1622811262
+Z473 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipepc.v
+Z474 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipepc.v
+L0 1
+R9
+r1
+31
+Z475 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipepc.v|
+R13
+Z476 !s108 1624290488.931000
+Z477 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/pipepc.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpll_iobuf
+Z478 !s100 GjVSPz57>XbFTCFibz;Qa1
+Z479 ICJa<DKV9UBni=Y@I:ggT72
+Z480 VEGl7X@h1ghgJczPPMaRcj3
+R4
+R5
+R6
+R7
+Z481 L0 2228
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vregfile
+Z482 !s100 b@zkiKiPBzjlB4<1ERd4H2
+Z483 INV>nBKWUg^JGkUJ?WD4>?3
+Z484 VHL?YD<z4Tlb1gm`0^XW@D2
+R4
+Z485 w1622811264
+Z486 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/regfile.v
+Z487 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/regfile.v
+L0 1
+R9
+r1
+31
+Z488 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/regfile.v|
+R13
+Z489 !s108 1624290489.005000
+Z490 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/regfile.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_cu
+Z491 !s100 @8<IWD4DmPl8jXkBMLKAz0
+Z492 I?2OF<dafaUUicTHT@S??a1
+Z493 V8@24i;6EPBN64_7cIaS_n3
+R4
+Z494 w1624289137
+Z495 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/sc_cu.v
+Z496 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/sc_cu.v
+L0 1
+R9
+r1
+31
+Z497 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/sc_cu.v|
+R13
+Z498 !s108 1624290489.075000
+Z499 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/sc_cu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vscfifo
+Z500 !s100 JY6=fIHP:4mF@;DYkX2ZQ2
+Z501 In1IVAjM_Db?6EO8?llRCo2
+Z502 VUMV6g0FCa0N3lFO1VmUAB1
+R4
+R5
+R6
+R7
+Z503 L0 48197
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vsevenseg
+Z504 !s100 ]PN[mI1iL6kdTbTYDb6Yf1
+Z505 Iem5UGTan;3j6Q1m_h<F5e1
+Z506 V<kz4<ET@H::]Aoef`6B9U3
+R4
+Z507 w1622811267
+Z508 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/sevenseg.v
+Z509 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/sevenseg.v
+L0 1
+R9
+r1
+31
+Z510 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/sevenseg.v|
+R13
+!i10b 1
+!s85 0
+Z511 !s108 1624290489.148000
+Z512 !s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/sevenseg.v|
+!s101 -O0
+vsignal_gen
+Z513 !s100 <`AGLNAa0HTe4T?WCzk9]2
+Z514 I5_TH:LKl2MKNg0F^7MVFA2
+Z515 VlANQ]2:@NW327hR21XHd@3
+R4
+R5
+R6
+R7
+Z516 L0 50811
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vsld_signaltap
+Z517 !s100 8:B@=j[KLVN<0eB>Yl4L63
+Z518 I0<`zI8zX7YEMBI;DF9KG12
+Z519 VaPcf`]?TO6X5KHIWncDQB0
+R4
+R5
+R6
+R7
+Z520 L0 52219
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vsld_virtual_jtag
+Z521 !s100 PC5<oMLQPK]18MDY_@R<]1
+Z522 IcbEd:UB5al7JQcD?1ZNaa3
+Z523 Vf2g7oS=5=F3IO@[SB6kgz2
+R4
+R5
+R6
+R7
+Z524 L0 52092
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vsld_virtual_jtag_basic
+Z525 !s100 ?g=XkTT1EC[GlQbPma7YO0
+Z526 IgzbK<z4WZooPdCO;;S@QV3
+Z527 VgN1]76z<g[F9Z_FM;6QOV2
+R4
+R5
+R6
+R7
+Z528 L0 52495
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratix_lvds_rx
+Z529 !s100 C80QmUPYVLLF?LL:SIjo^0
+Z530 IHF1gz3DfI5A]d6GRI>4PZ1
+Z531 V39zBWPn2G7n8FGOMRmNJB0
+R4
+R5
+R6
+R7
+Z532 L0 24912
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratix_tx_outclk
+Z533 !s100 kM_jSSS:X[N^DH0edE1>z0
+Z534 I]:1aKiU;2mm[jQ_EZJ?LD0
+Z535 Vh80DY6<NJ0Bn98@EoCo8n1
+R4
+R5
+R6
+R7
+Z536 L0 28776
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixgx_dpa_lvds_rx
+Z537 !s100 kWOSGz5SAR`m3Y9KbcSRU2
+Z538 IgI2PldD;8lEF1?R[him2O0
+Z539 V`[XhBYMJchCjeXnWloPH;3
+R4
+R5
+R6
+R7
+Z540 L0 25020
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixii_lvds_rx
+Z541 !s100 ]K0R`=>T8iN_UTScBKVm83
+Z542 I?`YQQnF@oAf6fcC2B:I;03
+Z543 V5D>4DFSRXh3=Nm=hc48Kd2
+R4
+R5
+R6
+R7
+Z544 L0 25423
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixii_tx_outclk
+Z545 !s100 WeIDSJdbEz5mG48P^=iV<3
+Z546 IlXLkGW]V3M`STPeDiD2Pe0
+Z547 V=n_<[`Vzf2Rz<[OlZ?^mI1
+R4
+R5
+R6
+R7
+Z548 L0 28884
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixiii_lvds_rx
+Z549 !s100 lTQK9=EMPmeFS^PHJAjZf2
+Z550 I_gWFjR_imW1T:NSKB^XJh3
+Z551 VoUk;[:B=^AmQb8<2mQYcL3
+R4
+R5
+R6
+R7
+Z552 L0 26222
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixiii_lvds_rx_channel
+Z553 !s100 =m;=UOGzXXoW6kV:A_9S<1
+Z554 I4lJiPhbHW[YdUVDKZdkaX1
+Z555 V6g9^E94B=2R;m4N=Eh2zm1
+R4
+R5
+R6
+R7
+Z556 L0 26404
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixiii_lvds_rx_dpa
+Z557 !s100 JkU75WSBDXFiU]gM;6`OM0
+Z558 IV@i^h5=UWeW4XRL6nkfY=2
+Z559 VenIPQShS6??nhY:JSTm8<3
+R4
+R5
+R6
+R7
+Z560 L0 27013
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstratixv_local_clk_divider
+Z561 !s100 L]<8m?@TBO4``[?l1MoQP0
+Z562 IHD5EbZW448I2mAj`Nid>S2
+Z563 V9QKP]A2;J<z_KOj[g[gGS3
+R4
+R5
+R6
+R7
+Z564 L0 28682
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstx_m_cntr
+Z565 !s100 c>3d=XXYckT<7UhOBe8EA2
+Z566 I@V?B`9kKfS6:WXI2O=Mgd3
+Z567 V:[2:D[_10ghn[bgc=CD302
+R4
+R5
+R6
+R7
+Z568 L0 2254
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstx_n_cntr
+Z569 !s100 2QP7o:KeZIJ?mXHMS[@Cm1
+Z570 Iki?01oPZITi<@kak<K`@N1
+Z571 V4CiQB5Uz?;=OULO:MD>Eo1
+R4
+R5
+R6
+R7
+Z572 L0 2332
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vstx_scale_cntr
+Z573 !s100 DVceUl?O1A=^l6;PATcDf2
+Z574 ILJMJHJ34Ob[VN6JhkD@Db3
+Z575 VG8KIUm2mDHoX1DjR8TDdJ1
+R4
+R5
+R6
+R7
+Z576 L0 2417
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vttn_m_cntr
+Z577 !s100 CFlHcR6d0NgFbBeA?NYBB3
+Z578 I?@lA6j0L^m8@<E@L^=52;3
+Z579 ViEB@`bJmQ[jz8=2kGYhDn3
+R4
+R5
+R6
+R7
+Z580 L0 10254
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vttn_n_cntr
+Z581 !s100 2=L612LLbjeBNb24bnUY33
+Z582 I^A7c[PZBa8_glnVYWF?JL0
+Z583 VWh8a]<5HCnf>2<AJGoZ2`0
+R4
+R5
+R6
+R7
+Z584 L0 10335
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vttn_scale_cntr
+Z585 !s100 ez;ja3g^VkRNBeG91Uiid0
+Z586 IWIM3C5cI:?79lNLObizSX1
+Z587 VXPfdhMTXDmY9JYEiBjd?Q2
+R4
+R5
+R6
+R7
+Z588 L0 10406
+R9
+r1
+31
+R10
+R11
+R12
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vtwodigits
+!i10b 1
+Z589 !s100 CUSAmF32`CjHhKJELNLYF3
+Z590 I[_^mLh1da;jP;G`1?GNJE0
+Z591 V96[jm2R`TV4<TR=E1h3FH1
+R4
+Z592 w1622803260
+Z593 8C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/twodigits.v
+Z594 FC:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/twodigits.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1624290489.216000
+!s107 C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/twodigits.v|
+Z595 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/pipeline_computer/twodigits.v|
+!s101 -O0
+R13

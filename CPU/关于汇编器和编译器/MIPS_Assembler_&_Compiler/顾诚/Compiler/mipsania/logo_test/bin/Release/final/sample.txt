@@ -1,0 +1,417 @@
+main:
+	#initializing stack pointer to 0x100
+	lui	$30,	0
+	addi	$30,	$30,	0x100
+	
+main__key_detect_init
+	addi	$1,	$0,	1
+	sw	$1,	32($0)
+	sw	$1,	36($0)
+	sw	$1,	40($0)
+	sw	$1,	44($0)
+	addi	$9,	$0,	3					#pointer index
+	addi	$28,	$0,	3000
+	addi	$27,	$0,	1
+	
+main__loop:
+	bne	$28,	$0,	main__key_detect
+	addi	$28,	$0,	3000
+	addi	$27,	$27,	1
+	andi	$27,	$27,	1
+	
+main__key_detect:
+	addi	$28,	$28,	-1
+
+	addi	$1,	$0,	3
+	jal	getkey
+	lw	$1,	32($0)
+	sw	$29,	32($0)
+	xor	$2,	$1,	$29
+	xor	$1,	$2,	$29
+	and	$1,	$1,	$2
+	bne	$1,	$0,	main__on_key3
+	
+	addi	$1,	$0,	2
+	jal	getkey
+	lw	$1,	36($0)
+	sw	$29,	36($0)
+	xor	$2,	$1,	$29
+	xor	$1,	$2,	$29
+	and	$1,	$1,	$2
+	bne	$1,	$0,	main__on_key2
+	
+	addi	$1,	$0,	1
+	jal	getkey
+	lw	$1,	40($0)
+	sw	$29,	40($0)
+	xor	$2,	$1,	$29
+	xor	$1,	$2,	$29
+	and	$1,	$1,	$2
+	bne	$1,	$0,	main__on_key1
+	
+	addi	$1,	$0,	0
+	jal	getkey
+	lw	$1,	44($0)
+	sw	$29,	44($0)
+	xor	$2,	$1,	$29
+	xor	$1,	$2,	$29
+	and	$1,	$1,	$2
+	bne	$1,	$0,	main__on_key0
+	
+main__get_number:
+	addi	$2,	$0,	10
+	lw	$1,	28($0)
+	jal	mul_unsigned
+	addi	$3,	$29,	0
+	lw	$1,	24($0)
+	add	$3,	$3,	$1				#r3 stores a
+	lw	$1,	20($0)
+	jal	mul_unsigned
+	addi	$4,	$29,	0
+	lw	$1,	16($0)
+	add	$4,	$4,	$1				#r4 stores b
+	addi	$1,	$3,	0
+	addi	$2,	$4,	0
+	jal	mul_unsigned
+	addi	$8,	$29,	0				#r8 stores ans
+	
+	addi	$1,	$8,	0
+	addi	$2,	$0,	1000
+	jal	get_digit_at_number
+	sw	$29,	12($0)
+	addi	$2,	$0,	100
+	jal	get_digit_at_number
+	sw	$29,	8($0)
+	addi	$2,	$0,	10
+	jal	get_digit_at_number
+	sw	$29,	4($0)
+	addi	$2,	$0,	1
+	jal	get_digit_at_number
+	sw	$29,	0($0)
+	
+main__draw:
+	lw	$4,	16($0)
+	addi	$1,	$0,	4
+	addi	$2,	$4,	0
+	addi	$3,	$0,	0
+	sub	$3,	$3,	$9
+	or	$3,	$3,	$27
+	bne	$3,	$0,	main__draw_4
+	addi	$2,	$0,	-1
+main__draw_4:
+	jal	display
+	lw	$5,	20($0)
+	addi	$1,	$0,	5
+	addi	$2,	$5,	0
+	addi	$3,	$0,	1
+	sub	$3,	$3,	$9
+	or	$3,	$3,	$27
+	bne	$3,	$0,	main__draw_5
+	addi	$2,	$0,	-1
+main__draw_5:
+	jal	display
+	lw	$6,	24($0)
+	addi	$1,	$0,	6
+	addi	$2,	$6,	0
+	addi	$3,	$0,	2
+	sub	$3,	$3,	$9
+	or	$3,	$3,	$27
+	bne	$3,	$0,	main__draw_6
+	addi	$2,	$0,	-1
+main__draw_6:
+	jal	display
+	lw	$7,	28($0)
+	addi	$1,	$0,	7
+	addi	$2,	$7,	0
+	addi	$3,	$0,	3
+	sub	$3,	$3,	$9
+	or	$3,	$3,	$27
+	bne	$3,	$0,	main__draw_7
+	addi	$2,	$0,	-1
+main__draw_7:
+	jal	display
+	
+	addi	$1,	$0,	3
+	lw	$2,	12($0)
+	jal display
+	addi	$1,	$0,	2
+	lw	$2,	8($0)
+	jal display
+	addi	$1,	$0,	1
+	lw	$2,	4($0)
+	jal display
+	addi	$1,	$0,	0
+	lw	$2,	0($0)
+	jal display
+	
+	j	main__loop
+	
+main__on_key3:
+	addi	$9,	$9,	1
+	addi	$1,	$0,	4
+	bne	$9,	$1,	main__draw
+	addi	$9,	$0,	0
+	j	main__draw
+	
+main__on_key2:
+	addi	$9,	$9,	-1
+	srl	$1,	$9,	31
+	beq	$1,	$0,	main__draw
+	addi	$9,	$0,	3
+	j	main__draw
+	
+main__on_key1:
+	sll	$10,	$9,	2
+	lw	$1,	16($10)
+	bne	$1,	$0,	main__on_key1_sub
+	addi	$1,	$0,	10
+main__on_key1_sub:
+	addi	$1,	$1,	-1
+	sw	$1,	16($10)
+	j	main__draw
+	
+main__on_key0:
+	sll	$10,	$9,	2
+	lw	$1,	16($10)
+	addi	$2,	$0,	9
+	bne	$1,	$2,	main__on_key0_add
+	addi	$1,	$0,	-1
+main__on_key0_add:
+	addi	$1,	$1,	1
+	sw	$1,	16($10)
+	j	main__draw
+
+mul_unsigned:
+	# inputs: $1:a, $2:b
+	# outputs: $29:a*b(trimmed)
+	# uses: $3, $4
+	sw	$1,	0($30)
+	sw	$2,	4($30)
+	sw	$3,	8($30)
+	sw	$4,	12($30)
+	addi	$30,	$30,	16
+
+	addi	$3,	$0,	1					# offset mask
+	addi	$29,	$0,	0
+mul_unsigned__loop:
+	and	$4,	$3,	$2
+	beq	$4,	$0,	mul_unsigned__loop_continue
+	add	$29,	$29,	$1
+mul_unsigned__loop_continue:
+	sll	$1,	$1,	1
+	sll	$3,	$3,	1
+	bne	$3,	$0,	mul_unsigned__loop
+mul_return:
+	addi	$30,	$30,	-16
+	lw	$1,	0($30)
+	lw	$2,	4($30)
+	lw	$3,	8($30)
+	lw	$4,	12($30)
+	jr	$31
+	
+get_digit_at_number:
+	# inputs: $1:num, $2:mask
+	# outputs: $1:num % mask, $29:num / mask
+	# uses: $3, $4, $31
+	sw	$2,	0($30)
+	sw	$3,	4($30)
+	sw	$4,	8($30)
+	sw	$31,	12($30)
+	addi	$30,	$30,	16
+	
+	addi	$3,	$0,	0
+	addi	$4,	$0,	-1
+	
+get_digit_at_number_loop:
+	jal	compare
+	beq	$29,	$4,	get_digit_at_number__return
+	sub	$1,	$1,	$2
+	addi	$3,	$3,	1
+	j	get_digit_at_number_loop
+	
+get_digit_at_number__return:
+	addi	$29,	$3,	0
+	addi	$30,	$30,	-16
+	lw	$2,	0($30)
+	lw	$3,	4($30)
+	lw	$4,	8($30)
+	lw	$31,	12($30)
+	jr	$31
+
+getkey:
+	# inputs: $1:key
+	# outputs:	$29
+	# uses: $2, $3
+	sw	$1,	0($30)
+	sw	$2,	4($30)
+	sw	$3,	8($30)
+	addi	$30,	$30,	12
+
+	lui	$2,	0x8000					# virtual address of key input
+	#addi	$2,	$0,	0x300					#####
+	addi	$3,	$0,	0
+	beq	$1,	$3,	getkey__0
+	addi	$3,	$0,	1
+	beq	$1,	$3,	getkey__1
+	addi	$3,	$0,	2
+	beq	$1,	$3,	getkey__2
+	addi	$3,	$0,	3
+	beq	$1,	$3,	getkey__3
+	addi	$29,	$0,	0
+	j	getkey__return
+getkey__0:
+	lw	$29,	0($2)
+	j	getkey__return
+getkey__1:
+	lw	$29, 4($2)
+	j	getkey__return
+getkey__2:
+	lw	$29,	8($2)
+	j	getkey__return
+getkey__3:
+	lw	$29,	12($2)
+	j	getkey__return
+getkey__return:
+	addi	$30,	$30,	-12
+	lw	$1,	0($30)
+	lw	$2,	4($30)
+	lw	$3,	8($30)
+	jr	$31
+
+display:
+	# inputs: $1:digit index, $2:digit number
+	# outputs: none
+	# uses: $3, $4, $31
+	sw	$1,	0($30)
+	sw	$2,	4($30)
+	sw	$3,	8($30)
+	sw	$4,	12($30)
+	sw	$31,	16($30)
+	addi	$30,	$30,	20
+
+	# check input
+	addi	$4,	$2,	0
+	lui	$2,	0
+	jal	compare						# compare index to 0
+	addi	$2,	$2,	-1
+	beq	$29,	$2,	display__finish			# index < 0, exit
+	addi	$2,	$2,	9
+	jal	compare						# compare index to 8
+	addi	$2,	$2,	-9
+	bne	$29,	$2,	display__finish			# index >= 8, exit
+	
+	lui	$3,	0x4000					# virtual display memory starts at 0x80000000
+	sll	$3,	$3,	1
+	#addi	$3,	$0,	0x200					#####
+	sll	$1,	$1,	2
+	add	$3,	$3,	$1					# get display memory address
+	addi	$1,	$4,	0
+	jal	display_number
+	sw	$1,	0($3)
+	j	display__finish
+
+display__finish:
+	addi	$30,	$30,	-20
+	lw	$1,	0($30)
+	lw	$2,	4($30)
+	lw	$3,	8($30)
+	lw	$4,	12($30)
+	lw	$31,	16($30)
+	jr	$31
+
+display_number:
+	# inputs: $1:number
+	# outputs: $1:7segment digit input
+	# uses: $2
+	sw	$2,	0($30)
+	addi	$30,	$30,	4
+
+	addi	$2,	$0,	0
+	beq	$1,	$2,	display_number__0
+	addi	$2,	$0,	1
+	beq	$1,	$2,	display_number__1
+	addi	$2,	$0,	2
+	beq	$1,	$2,	display_number__2
+	addi	$2,	$0,	3
+	beq	$1,	$2,	display_number__3
+	addi	$2,	$0,	4
+	beq	$1,	$2,	display_number__4
+	addi	$2,	$0,	5
+	beq	$1,	$2,	display_number__5
+	addi	$2,	$0,	6
+	beq	$1,	$2,	display_number__6
+	addi	$2,	$0,	7
+	beq	$1,	$2,	display_number__7
+	addi	$2,	$0,	8
+	beq	$1,	$2,	display_number__8
+	addi	$2,	$0,	9
+	beq	$1,	$2,	display_number__9
+	addi	$2,	$0,	127
+	j	display_number__display
+display_number__0:
+	addi	$2,	$0,	64
+	j	display_number__display
+display_number__1:
+	addi	$2,	$0,	121
+	j	display_number__display
+display_number__2:
+	addi	$2,	$0,	36
+	j	display_number__display
+display_number__3:
+	addi	$2,	$0,	48
+	j	display_number__display
+display_number__4:
+	addi	$2,	$0,	25
+	j	display_number__display
+display_number__5:
+	addi	$2,	$0,	18
+	j	display_number__display
+display_number__6:
+	addi	$2,	$0,	2
+	j	display_number__display
+display_number__7:
+	addi	$2,	$0,	120
+	j	display_number__display
+display_number__8:
+	addi	$2,	$0,	0
+	j	display_number__display
+display_number__9:
+	addi	$2,	$0,	16
+	j	display_number__display
+
+display_number__display:
+	addi	$1,	$2,	0
+	j	display_number__return
+
+display_number__return:
+	addi	$30,	$30,	-4
+	lw	$2,	0($30)
+	jr	$31
+
+compare:
+	# inputs: $1:a, $2:b
+	# outputs: $29:result(-1:a<b 0:a=b 1:a>b)
+	# uses: none
+	sw	$1,	0($30)
+	sw	$2,	4($30)
+	addi	$30,	$30,	8
+	sub	$1,	$1,	$2
+	lui	$2,	0						# $2 sets to 0
+	lui	$29,	0						# return value sets to 0
+	beq	$1,	$2,	smaller__a_equal_b
+	srl	$1,	$1,	31					# $1 shifts to its highest bit
+	beq	$1,	$2,	smaller__a_greater_b
+	j	smaller__a_smaller_b
+smaller__a_equal_b:
+	j	smaller__return
+smaller__a_greater_b:
+	addi	$29,	$29,	1					# return value sets to 1 to indicate a > b
+	j	smaller__return
+smaller__a_smaller_b:
+	addi	$29,	$29,	-1					# return value sets to -1 to indicate a < b
+	j 	smaller__return
+smaller__return:
+	addi	$30,	$30,	-8
+	lw	$1,	0($30)
+	lw	$2,	4($30)
+	jr	$31

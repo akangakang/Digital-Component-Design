@@ -1,0 +1,93 @@
+Warning (10268): Verilog HDL information at altera_mf.v(2285): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(2362): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(2461): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(4702): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(5076): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(5168): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(5784): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(6076): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(6448): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(6617): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(8775): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(8785): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(8809): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(8902): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(8930): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(8958): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(8985): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(9012): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(9039): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(9166): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(9200): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(9256): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(9762): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(10019): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(10285): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(10444): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13070): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13094): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13143): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13171): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13199): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13227): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13254): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13281): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13308): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13335): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13362): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13389): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13423): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13500): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13557): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13583): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(13802): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(14037): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(14081): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(14387): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(14546): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(16836): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(16860): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(16909): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(16937): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(16965): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(16993): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(17020): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(17055): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(17132): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(17189): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(17210): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(17429): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(17664): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(17708): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(17995): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(18154): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(20538): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(20562): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(20611): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(20639): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(20667): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(20695): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(20722): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(20757): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(20834): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(20891): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(20912): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(21134): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(21370): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(21414): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(25887): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(26809): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(29233): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(29395): always construct contains both blocking and non-blocking assignments
+Warning (10273): Verilog HDL warning at altera_mf.v(39797): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at altera_mf.v(39801): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at altera_mf.v(39897): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at altera_mf.v(39899): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at altera_mf.v(39901): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at altera_mf.v(39903): extended using "x" or "z"
+Warning (10268): Verilog HDL information at altera_mf.v(46783): always construct contains both blocking and non-blocking assignments
+Warning (10273): Verilog HDL warning at altera_mf.v(46854): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at altera_mf.v(47215): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at altera_mf.v(47235): extended using "x" or "z"
+Warning (10268): Verilog HDL information at altera_mf.v(50388): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at altera_mf.v(50667): always construct contains both blocking and non-blocking assignments

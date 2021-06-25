@@ -1,0 +1,35 @@
+﻿<Window x:Class="LogoScriptIDE.StackWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registers" Height="210" Width="500" Left="100" Top="50" Closing="Window_Closing" ShowInTaskbar="False" WindowStyle="ToolWindow">
+    <Grid>
+        <DataGrid Name="ui_grid"
+                  Height="Auto"
+                  HorizontalAlignment="Stretch"
+                  VerticalAlignment="Stretch" 
+                  Width="Auto" 
+                  IsReadOnly="False"
+                  CanUserResizeRows="False"
+                  HorizontalContentAlignment="Stretch"
+                  FontFamily="Consolas"
+                  HeadersVisibility="Column"
+                  SelectionChanged="ui_grid_SelectionChanged"
+                  CanUserSortColumns="False"
+                  AutoGenerateColumns="False" CanUserReorderColumns="False" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Visible">
+            
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="ui_depthColumn" Width="Auto"  CanUserResize="False" Header="Reg" Binding="{Binding Register}"></DataGridTextColumn>
+                <DataGridTextColumn x:Name="ui_lineColumn" Width="Auto" CanUserResize="False" Header="Hex" Binding="{Binding Hex}"></DataGridTextColumn>
+                <DataGridTextColumn x:Name="ui_functionColumn" Width="Auto" CanUserResize="False" Header="Dec" Binding="{Binding Dec}"></DataGridTextColumn>
+            </DataGrid.Columns>
+            
+            <!--DataGrid.Resources>
+                <ResourceDictionary>
+                    <Style x:Key="{x:Type DataGridCell}" TargetType="{x:Type DataGridCell}">
+                        <Setter Property="BorderBrush" Value="Transparent" />
+                    </Style>
+                </ResourceDictionary>s
+            </DataGrid.Resources-->
+        </DataGrid>
+    </Grid>
+</Window>

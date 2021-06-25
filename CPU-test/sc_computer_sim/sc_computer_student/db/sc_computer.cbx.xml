@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="sc_computer">
+		<CBX_INST_ENTRY INSTANCE_NAME="|sc_computer|sc_datamem:dmem|io_mem:io|twodigits:hex_two|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_4am.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sc_computer|sc_datamem:dmem|lpm_ram_dq_dram:dataram|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_59m1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sc_computer|sc_instmem:imem|lpm_rom_irom:irom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_l0j1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

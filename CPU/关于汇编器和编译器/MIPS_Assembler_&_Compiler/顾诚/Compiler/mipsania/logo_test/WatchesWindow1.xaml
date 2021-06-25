@@ -1,0 +1,24 @@
+﻿<Window x:Class="LogoScriptIDE.WatchesWindow1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Watch" Height="250" Width="450" Closing="Window_Closing" WindowStyle="ToolWindow" ShowInTaskbar="False" Loaded="Window_Loaded">
+
+    <Grid>
+        <DataGrid 
+            Background="Transparent"
+            AutoGenerateColumns="False" HorizontalAlignment="Stretch" 
+            Name="ui_watchesgrid" 
+            VerticalAlignment="Stretch" 
+            CanUserReorderColumns="False"
+            IsReadOnly="False" Margin="0,1,188,0" CellEditEnding="ui_watchesgrid_CellEditEnding" BeginningEdit="ui_watchesgrid_BeginningEdit">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="ui_nameColumn"  Width="Auto" CanUserResize="True" Header="Name" Binding="{Binding Name}"></DataGridTextColumn>
+                <DataGridTextColumn x:Name="ui_valueColumn" Width="Auto" CanUserResize="True" Header="Value" Binding="{Binding Value}"></DataGridTextColumn>
+                <DataGridTextColumn x:Name="ui_remarksColumn" Width="Auto" CanUserResize="True" Header="Remarks" Binding="{Binding Remarks}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Add Watch"  Name="ui_addLine" Click="ui_addLine_Click" Margin="261,2,0,3" HorizontalAlignment="Left" Width="78" />
+        <Button Content="Delete Watch" Name="ui_deleteLine" Margin="0,1,0,3" Click="ui_deleteLine_Click" HorizontalAlignment="Right" Width="83" />
+    </Grid>
+
+</Window>

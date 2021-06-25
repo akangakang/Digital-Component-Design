@@ -1,0 +1,366 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1
+valu
+Z1 !s100 e??Kd3:heT[R>_jGHH3?T3
+Z2 I1G89afo9QTQZZciTzIA8`0
+Z3 VKc:bVz32gc5X2ZbjUde9O3
+Z4 dC:\Users\97537\STUDY\Digital_Component_Design\cpu_m
+Z5 w1621044202
+Z6 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/alu.v
+Z7 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/alu.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/alu.v|
+Z10 o-work work -O0
+Z11 !s108 1621221465.113000
+Z12 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vclock_and_mem_clock
+Z13 !s100 TK114W@bP?W=2JRAaLBD<2
+Z14 I6E7_]AYm4EoR7R6?Q<;AK3
+Z15 V<jDR_JIR@B<ofIFezo[jc2
+R4
+Z16 w1621084466
+Z17 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/clock_and_mem_clock.v
+Z18 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/clock_and_mem_clock.v
+L0 1
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/clock_and_mem_clock.v|
+R10
+Z20 !s108 1621221465.635000
+Z21 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/clock_and_mem_clock.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdff32
+Z22 !s100 Ya:?Ci8[8:BC_ZgE7E0oQ1
+Z23 I1;AScKGH4bz;H[0@abi940
+Z24 VUO7_EzIi9>SeN7M;XG9<c0
+R4
+Z25 w1305031718
+Z26 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/dff32.v
+Z27 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/dff32.v
+L0 1
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/dff32.v|
+R10
+Z29 !s108 1621221466.250000
+Z30 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/dff32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdffe32
+Z31 !s100 =]KgiYRg4J304`=hGFUi<3
+Z32 Ie=oz=Y>2bEdN@l^IbaaW=0
+Z33 V6]Tk:7m18<;Eoi?;I3VNB3
+R4
+Z34 w1252914812
+Z35 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/dffe32.v
+Z36 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/dffe32.v
+L0 1
+R8
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/dffe32.v|
+R10
+Z38 !s108 1621221466.671000
+Z39 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/dffe32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vio_mem
+Z40 !s100 l?J]5CnoC;Dhk<RCM2R^L2
+Z41 I5V^Jf[oI>;^RlI8:Nz[;a0
+Z42 Ve=iH2`<=bCl56G0z:hAN_2
+R4
+Z43 w1621093910
+Z44 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/io_menm.v
+Z45 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/io_menm.v
+L0 1
+R8
+r1
+31
+Z46 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/io_menm.v|
+R10
+Z47 !s108 1621221467.312000
+Z48 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/io_menm.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlpm_ram_dq_dram
+Z49 !s100 S]5GSPf89aUZ2TB7>f<Hk2
+Z50 IUN@1^P^Sg^?oPo7KenHMg2
+Z51 V;^>UgMFOjF@EZ@A<NMAW`0
+R4
+Z52 w1305005947
+Z53 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/lpm_ram_dq_dram.v
+Z54 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/lpm_ram_dq_dram.v
+L0 39
+R8
+r1
+31
+Z55 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/lpm_ram_dq_dram.v|
+R10
+Z56 !s108 1621221467.844000
+Z57 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/lpm_ram_dq_dram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlpm_rom_irom
+Z58 !s100 z6J;7aF`7T2kg5G00h3i80
+Z59 IFKGi]J77B0@]V<@Lo]k_k2
+Z60 V6I?:oUA0HYdli42?U:6:L0
+R4
+Z61 w1621082214
+Z62 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/lpm_rom_irom.v
+Z63 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/lpm_rom_irom.v
+L0 39
+R8
+r1
+31
+Z64 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/lpm_rom_irom.v|
+R10
+Z65 !s108 1621221468.488000
+Z66 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/lpm_rom_irom.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2x32
+Z67 !s100 @n`o^dAV^8G@LOZXTz5lK0
+Z68 IV[oDm3K:Z4PQ>n2^MDi@Q2
+Z69 V_8o=]o8CzEDeX@^n?a@zP3
+R4
+Z70 w1252908544
+Z71 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux2x32.v
+Z72 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux2x32.v
+L0 1
+R8
+r1
+31
+Z73 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux2x32.v|
+R10
+Z74 !s108 1621221469.523000
+Z75 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux2x32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2x5
+Z76 !s100 58H^G8h2]VU4j]LT=YCZS0
+Z77 IAdi0gVz<N6Fki:hk>d1mj0
+Z78 Vah3g>_]Y^Qz2GXD7HR^<<3
+R4
+Z79 w1253170143
+Z80 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux2x5.v
+Z81 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux2x5.v
+L0 1
+R8
+r1
+31
+Z82 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux2x5.v|
+R10
+Z83 !s108 1621221469.063000
+Z84 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux2x5.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux4x32
+Z85 !s100 Gi<J8o>LPbeGLDE?izO443
+Z86 InFSVf5K_TChGdbl01[IjH2
+Z87 VM:hYY`k:C]4^:^k7d8C]M0
+R4
+Z88 w1252998688
+Z89 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux4x32.v
+Z90 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux4x32.v
+L0 1
+R8
+r1
+31
+Z91 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux4x32.v|
+R10
+Z92 !s108 1621221470.069000
+Z93 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux4x32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregfile
+Z94 !s100 aY3CgD`FfBCGTz63o^=kj1
+Z95 IKB17MT]eWH7jEf^gUg4>R1
+Z96 VHL?YD<z4Tlb1gm`0^XW@D2
+R4
+Z97 w1621220969
+Z98 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/regfile.v
+Z99 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/regfile.v
+L0 1
+R8
+r1
+31
+Z100 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/regfile.v|
+R10
+Z101 !s108 1621221470.449000
+Z102 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/regfile.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_computer
+Z103 !s100 OH]GQIkefL9PlIkhde1A_1
+Z104 IEfdS:9zI5gzKD0D1UX4jC0
+Z105 VA_TU;3lIM]M`Um[iEbV3]2
+R4
+Z106 w1621087543
+Z107 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_computer.v
+Z108 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_computer.v
+L0 7
+R8
+r1
+31
+Z109 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_computer.v|
+R10
+Z110 !s108 1621221470.954000
+Z111 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_computer.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_computer_sim
+!i10b 1
+!s100 4RC3`Lg2WPPgN2SCZ=:o<1
+IK@ODP4i]>XK3<KG61OQYd2
+Z112 V^jiC<6F7]doek[nRMoOol1
+R4
+w1621221433
+Z113 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_sim.v
+Z114 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_sim.v
+L0 26
+R8
+r1
+!s85 0
+31
+!s108 1621221474.058000
+!s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_sim.v|
+Z115 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_sim.v|
+!s101 -O0
+R10
+vsc_cpu
+Z116 !s100 c3SABZz=?ZS5dK?h:ih;@0
+Z117 IR]cS<O3hzaogPN5ce7k]?1
+Z118 V:mi8;^<LZUMNBc_]kEVbj2
+R4
+Z119 w1621221022
+Z120 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_cpu.v
+Z121 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_cpu.v
+L0 1
+R8
+r1
+31
+Z122 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_cpu.v|
+R10
+Z123 !s108 1621221471.397000
+Z124 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_cpu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_cu
+Z125 !s100 YH6OVfBAz;fcjB[ZFDY0@0
+Z126 I=UAgAa0I=nkCT5b[H];AD0
+Z127 VAlN72Pg@l_c4ao;V0co7c3
+R4
+Z128 w1621043902
+Z129 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_cu.v
+Z130 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_cu.v
+L0 1
+R8
+r1
+31
+Z131 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_cu.v|
+R10
+Z132 !s108 1621221471.790000
+Z133 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_cu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_datamem
+Z134 !s100 ?XfHZe>==FUcfNeac[?b=1
+Z135 IaoMC@JAA1Tz`T6:^kZenD2
+Z136 VFL=NClRCKX48@]K70mc@;0
+R4
+Z137 w1621070070
+Z138 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_datamem.v
+Z139 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_datamem.v
+L0 1
+R8
+r1
+31
+Z140 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_datamem.v|
+R10
+Z141 !s108 1621221472.170000
+Z142 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_datamem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_instmem
+Z143 !s100 KFMFUkX:]27TCme4IZX6a2
+Z144 I8E7l>gDGNAIl`^AoZjebd0
+Z145 VkU`UIUgSeP=c3TJLN64XO2
+R4
+Z146 w1305084523
+Z147 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_instmen.v
+Z148 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_instmen.v
+L0 1
+R8
+r1
+31
+Z149 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_instmen.v|
+R10
+Z150 !s108 1621221472.713000
+Z151 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_instmen.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsevenseg
+Z152 !s100 kGimWRLfN<^]<EK<QYHn`3
+Z153 Ik>8cTQzS^OcoaR_Ak[0cR3
+Z154 V<kz4<ET@H::]Aoef`6B9U3
+R4
+Z155 w1621071564
+Z156 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sevenseg.v
+Z157 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sevenseg.v
+L0 1
+R8
+r1
+31
+Z158 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sevenseg.v|
+R10
+Z159 !s108 1621221473.139000
+Z160 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sevenseg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtwodigits
+Z161 !s100 ^Q1aHe^kh@kY3KNz7<jDl1
+Z162 IC_o?46V_Tz;=gKNjM`Lb23
+Z163 V96[jm2R`TV4<TR=E1h3FH1
+R4
+Z164 w1621093856
+Z165 8C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/twodigits.v
+Z166 FC:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/twodigits.v
+L0 1
+R8
+r1
+31
+Z167 !s90 -reportprogress|300|-work|work|C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/twodigits.v|
+R10
+!i10b 1
+!s85 0
+Z168 !s108 1621221473.552000
+Z169 !s107 C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/twodigits.v|
+!s101 -O0

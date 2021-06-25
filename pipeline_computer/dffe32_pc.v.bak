@@ -1,0 +1,8 @@
+module dffe32_pc(d, clk, clrn, e, q);
+	input [31:0] d;
+	input clk, clrn, e;
+	output reg [31:0] q;
+	always @ (negedge clrn or posedge clk)
+		if (clrn == 0) q <= -4;
+		else if (e == 1) q <= d;
+endmodule

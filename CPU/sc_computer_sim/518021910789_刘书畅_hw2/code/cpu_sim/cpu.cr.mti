@@ -1,0 +1,127 @@
+C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/twodigits.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/twodigits.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module twodigits
+
+Top level modules:
+	twodigits
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sevenseg.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sevenseg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sevenseg
+
+Top level modules:
+	sevenseg
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux2x5.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux2x5.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2x5
+
+Top level modules:
+	mux2x5
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/alu.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/alu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/dffe32.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/dffe32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dffe32
+
+Top level modules:
+	dffe32
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/io_menm.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/io_menm.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module io_mem
+
+Top level modules:
+	io_mem
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_datamem.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_datamem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sc_datamem
+
+Top level modules:
+	sc_datamem
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/regfile.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/regfile.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/clock_and_mem_clock.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/clock_and_mem_clock.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module clock_and_mem_clock
+
+Top level modules:
+	clock_and_mem_clock
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/lpm_ram_dq_dram.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/lpm_ram_dq_dram.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module lpm_ram_dq_dram
+
+Top level modules:
+	lpm_ram_dq_dram
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux2x32.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux2x32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2x32
+
+Top level modules:
+	mux2x32
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux4x32.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/mux4x32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux4x32
+
+Top level modules:
+	mux4x32
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_instmen.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_instmen.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sc_instmem
+
+Top level modules:
+	sc_instmem
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_computer.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_computer.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sc_computer
+
+Top level modules:
+	sc_computer
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/lpm_rom_irom.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/lpm_rom_irom.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module lpm_rom_irom
+
+Top level modules:
+	lpm_rom_irom
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/dff32.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/dff32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dff32
+
+Top level modules:
+	dff32
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_cpu.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_cpu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sc_cpu
+
+Top level modules:
+	sc_cpu
+
+} {} {}} C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_cu.v {1 {vlog -work work C:/Users/97537/STUDY/Digital_Component_Design/CPU/sc_computer_sim/sc_computer_student/source/sc_cu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sc_cu
+
+Top level modules:
+	sc_cu
+
+} {} {}}

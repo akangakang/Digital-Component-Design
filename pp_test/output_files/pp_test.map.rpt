@@ -1,0 +1,1443 @@
+Analysis & Synthesis report for pp_test
+Fri Jun 04 20:23:16 2021
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Messages
+  6. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                             ;
++-----------------------------+--------------------------------------------+
+; Analysis & Synthesis Status ; Failed - Fri Jun 04 20:23:16 2021          ;
+; Quartus II 64-Bit Version   ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name               ; pp_test                                    ;
+; Top-level Entity Name       ; pp_computer                                ;
+; Family                      ; Cyclone V                                  ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                  ;
+; Total registers             ; N/A until Partition Merge                  ;
+; Total pins                  ; N/A until Partition Merge                  ;
+; Total virtual pins          ; N/A until Partition Merge                  ;
+; Total block memory bits     ; N/A until Partition Merge                  ;
+; Total PLLs                  ; N/A until Partition Merge                  ;
+; Total DLLs                  ; N/A until Partition Merge                  ;
++-----------------------------+--------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
+; Top-level entity name                                                           ; pp_computer        ; pp_test            ;
+; Family name                                                                     ; Cyclone V          ; Cyclone IV GX      ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                       ; Off                ; Off                ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; PowerPlay Power Optimization                                                    ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Synthesis Seed                                                                  ; 1                  ; 1                  ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-8         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+    Info: Processing started: Fri Jun 04 20:23:14 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off pp_test -c pp_test
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (12021): Found 1 design units, including 1 entities, in source file pp_computer.bdf
+    Info (12023): Found entity 1: pp_computer
+Info (12021): Found 1 design units, including 1 entities, in source file sevenseg.v
+    Info (12023): Found entity 1: sevenseg
+Info (12021): Found 1 design units, including 1 entities, in source file sc_instmen.v
+    Info (12023): Found entity 1: sc_instmem
+Info (12021): Found 1 design units, including 1 entities, in source file sc_datamem.v
+    Info (12023): Found entity 1: sc_datamem
+Info (12021): Found 1 design units, including 1 entities, in source file sc_cu.v
+    Info (12023): Found entity 1: sc_cu
+Info (12021): Found 1 design units, including 1 entities, in source file sc_cpu.v
+    Info (12023): Found entity 1: sc_cpu
+Info (12021): Found 1 design units, including 1 entities, in source file sc_computer_sim.v
+    Info (12023): Found entity 1: sc_computer_sim
+Info (12021): Found 1 design units, including 1 entities, in source file sc_computer.v
+    Info (12023): Found entity 1: sc_computer
+Info (12021): Found 1 design units, including 1 entities, in source file regfile.v
+    Info (12023): Found entity 1: regfile
+Info (12021): Found 1 design units, including 1 entities, in source file pipepc.v
+    Info (12023): Found entity 1: pipepc
+Info (12021): Found 1 design units, including 1 entities, in source file pipemwreg.v
+    Info (12023): Found entity 1: pipemwreg
+Info (12021): Found 1 design units, including 1 entities, in source file pipemem.v
+    Info (12023): Found entity 1: pipemem
+Info (12021): Found 1 design units, including 1 entities, in source file pipelined_computer_sim.v
+    Info (12023): Found entity 1: pipelined_computer_sim
+Info (12021): Found 1 design units, including 1 entities, in source file pipeline_computer_main.v
+    Info (12023): Found entity 1: pipeline_computer_main
+Info (12021): Found 1 design units, including 1 entities, in source file pipeir.v
+    Info (12023): Found entity 1: pipeir
+Info (12021): Found 1 design units, including 1 entities, in source file pipeif.v
+    Info (12023): Found entity 1: pipeif
+Info (12021): Found 1 design units, including 1 entities, in source file pipeid.v
+    Info (12023): Found entity 1: pipeid
+Info (12021): Found 1 design units, including 1 entities, in source file pipeexe.v
+    Info (12023): Found entity 1: pipeexe
+Info (12021): Found 1 design units, including 1 entities, in source file pipeemreg.v
+    Info (12023): Found entity 1: pipeemreg
+Info (12021): Found 1 design units, including 1 entities, in source file pipedereg.v
+    Info (12023): Found entity 1: pipedereg
+Info (12021): Found 1 design units, including 1 entities, in source file out_port_seg.v
+    Info (12023): Found entity 1: out_port_seg
+Info (12021): Found 1 design units, including 1 entities, in source file mux4x32.v
+    Info (12023): Found entity 1: mux4x32
+Info (12021): Found 1 design units, including 1 entities, in source file mux2x32.v
+    Info (12023): Found entity 1: mux2x32
+Info (12021): Found 1 design units, including 1 entities, in source file mux2x5.v
+    Info (12023): Found entity 1: mux2x5
+Info (12021): Found 1 design units, including 1 entities, in source file lpm_rom_irom.v
+    Info (12023): Found entity 1: lpm_rom_irom
+Info (12021): Found 1 design units, including 1 entities, in source file lpm_ram_dq_dram.v
+    Info (12023): Found entity 1: lpm_ram_dq_dram
+Info (12021): Found 1 design units, including 1 entities, in source file io_output.v
+    Info (12023): Found entity 1: io_output
+Info (12021): Found 2 design units, including 2 entities, in source file io_input.v
+    Info (12023): Found entity 1: io_input
+    Info (12023): Found entity 2: io_input_mux
+Info (12021): Found 1 design units, including 1 entities, in source file in_port.v
+    Info (12023): Found entity 1: in_port
+Info (12021): Found 1 design units, including 1 entities, in source file dffe32_pc.v
+    Info (12023): Found entity 1: dffe32_pc
+Info (12021): Found 1 design units, including 1 entities, in source file dffe32.v
+    Info (12023): Found entity 1: dffe32
+Info (12021): Found 1 design units, including 1 entities, in source file dff32.v
+    Info (12023): Found entity 1: dff32
+Info (12021): Found 1 design units, including 1 entities, in source file clock_and_mem_clock.v
+    Info (12023): Found entity 1: clock_and_mem_clock
+Info (12021): Found 1 design units, including 1 entities, in source file cla32.v
+    Info (12023): Found entity 1: cla32
+Info (12021): Found 1 design units, including 1 entities, in source file alu.v
+    Info (12023): Found entity 1: alu
+Warning (10261): Verilog HDL Event Control warning at altera_mf.v(4984): Event Control contains a complex event expression
+Warning (10261): Verilog HDL Event Control warning at altera_mf.v(5019): Event Control contains a complex event expression
+Warning (12018): Entity "lcell" will be ignored because it conflicts with Quartus II primitive name
+Warning (12090): Entity "altpll" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altlvds_rx" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altlvds_tx" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "dcfifo_mixed_widths" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "dcfifo" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altaccumulate" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altmult_accum" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altmult_add" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altfp_mult" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altsqrt" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altclklock" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altddio_in" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altddio_out" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altddio_bidir" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altdpram" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altsyncram" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "alt3pram" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "parallel_add" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "scfifo" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altshift_taps" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "a_graycounter" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altsquare" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altera_std_synchronizer" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altera_std_synchronizer_bundle" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "alt_cal" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "alt_cal_mm" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "alt_cal_c3gxb" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "alt_cal_sv" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "alt_cal_av" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "alt_aeq_s4" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "alt_eyemon" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "alt_dfe" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "sld_virtual_jtag" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "sld_signaltap" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altstratixii_oct" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altparallel_flash_loader" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altserial_flash_loader" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "sld_virtual_jtag_basic" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Warning (12090): Entity "altsource_probe" obtained from "altera_mf.v" instead of from Quartus II megafunction library
+Info (12021): Found 86 design units, including 86 entities, in source file altera_mf.v
+    Info (12023): Found entity 1: ALTERA_MF_MEMORY_INITIALIZATION
+    Info (12023): Found entity 2: ALTERA_MF_HINT_EVALUATION
+    Info (12023): Found entity 3: ALTERA_DEVICE_FAMILIES
+    Info (12023): Found entity 4: dffp
+    Info (12023): Found entity 5: pll_iobuf
+    Info (12023): Found entity 6: stx_m_cntr
+    Info (12023): Found entity 7: stx_n_cntr
+    Info (12023): Found entity 8: stx_scale_cntr
+    Info (12023): Found entity 9: MF_pll_reg
+    Info (12023): Found entity 10: MF_stratix_pll
+    Info (12023): Found entity 11: arm_m_cntr
+    Info (12023): Found entity 12: arm_n_cntr
+    Info (12023): Found entity 13: arm_scale_cntr
+    Info (12023): Found entity 14: MF_stratixii_pll
+    Info (12023): Found entity 15: ttn_m_cntr
+    Info (12023): Found entity 16: ttn_n_cntr
+    Info (12023): Found entity 17: ttn_scale_cntr
+    Info (12023): Found entity 18: MF_stratixiii_pll
+    Info (12023): Found entity 19: cda_m_cntr
+    Info (12023): Found entity 20: cda_n_cntr
+    Info (12023): Found entity 21: cda_scale_cntr
+    Info (12023): Found entity 22: MF_cycloneiii_pll
+    Info (12023): Found entity 23: MF_cycloneiiigl_m_cntr
+    Info (12023): Found entity 24: MF_cycloneiiigl_n_cntr
+    Info (12023): Found entity 25: MF_cycloneiiigl_scale_cntr
+    Info (12023): Found entity 26: cycloneiiigl_post_divider
+    Info (12023): Found entity 27: MF_cycloneiiigl_pll
+    Info (12023): Found entity 28: altpll
+    Info (12023): Found entity 29: altlvds_rx
+    Info (12023): Found entity 30: stratix_lvds_rx
+    Info (12023): Found entity 31: stratixgx_dpa_lvds_rx
+    Info (12023): Found entity 32: stratixii_lvds_rx
+    Info (12023): Found entity 33: flexible_lvds_rx
+    Info (12023): Found entity 34: stratixiii_lvds_rx
+    Info (12023): Found entity 35: stratixiii_lvds_rx_channel
+    Info (12023): Found entity 36: stratixiii_lvds_rx_dpa
+    Info (12023): Found entity 37: altlvds_tx
+    Info (12023): Found entity 38: stratixv_local_clk_divider
+    Info (12023): Found entity 39: stratix_tx_outclk
+    Info (12023): Found entity 40: stratixii_tx_outclk
+    Info (12023): Found entity 41: flexible_lvds_tx
+    Info (12023): Found entity 42: dcfifo_dffpipe
+    Info (12023): Found entity 43: dcfifo_fefifo
+    Info (12023): Found entity 44: dcfifo_async
+    Info (12023): Found entity 45: dcfifo_sync
+    Info (12023): Found entity 46: dcfifo_low_latency
+    Info (12023): Found entity 47: dcfifo_mixed_widths
+    Info (12023): Found entity 48: dcfifo
+    Info (12023): Found entity 49: altaccumulate
+    Info (12023): Found entity 50: altmult_accum
+    Info (12023): Found entity 51: altmult_add
+    Info (12023): Found entity 52: altfp_mult
+    Info (12023): Found entity 53: altsqrt
+    Info (12023): Found entity 54: altclklock
+    Info (12023): Found entity 55: altddio_in
+    Info (12023): Found entity 56: altddio_out
+    Info (12023): Found entity 57: altddio_bidir
+    Info (12023): Found entity 58: altdpram
+    Info (12023): Found entity 59: altsyncram
+    Info (12023): Found entity 60: alt3pram
+    Info (12023): Found entity 61: parallel_add
+    Info (12023): Found entity 62: scfifo
+    Info (12023): Found entity 63: altshift_taps
+    Info (12023): Found entity 64: a_graycounter
+    Info (12023): Found entity 65: altsquare
+    Info (12023): Found entity 66: altera_std_synchronizer
+    Info (12023): Found entity 67: altera_std_synchronizer_bundle
+    Info (12023): Found entity 68: alt_cal
+    Info (12023): Found entity 69: alt_cal_mm
+    Info (12023): Found entity 70: alt_cal_c3gxb
+    Info (12023): Found entity 71: alt_cal_sv
+    Info (12023): Found entity 72: alt_cal_av
+    Info (12023): Found entity 73: alt_aeq_s4
+    Info (12023): Found entity 74: alt_eyemon
+    Info (12023): Found entity 75: alt_dfe
+    Info (12023): Found entity 76: signal_gen
+    Info (12023): Found entity 77: jtag_tap_controller
+    Info (12023): Found entity 78: dummy_hub
+    Info (12023): Found entity 79: sld_virtual_jtag
+    Info (12023): Found entity 80: sld_signaltap
+    Info (12023): Found entity 81: altstratixii_oct
+    Info (12023): Found entity 82: altparallel_flash_loader
+    Info (12023): Found entity 83: altserial_flash_loader
+    Info (12023): Found entity 84: sld_virtual_jtag_basic
+    Info (12023): Found entity 85: altsource_probe
+Warning (10227): Verilog HDL Port Declaration warning at sevenseg.v(4): data type declaration for "ledsegments" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at sevenseg.v(3): see declaration for object "ledsegments"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(125): data type declaration for "width" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(96): see declaration for object "width"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(748): data type declaration for "width" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(735): see declaration for object "width"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(1188): data type declaration for "width" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(1184): see declaration for object "width"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3397): data type declaration for "numerator" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3390): see declaration for object "numerator"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3398): data type declaration for "denominator" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3391): see declaration for object "denominator"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3399): data type declaration for "max_denom" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3392): see declaration for object "max_denom"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3400): data type declaration for "fraction_num" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3393): see declaration for object "fraction_num"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3401): data type declaration for "fraction_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3394): see declaration for object "fraction_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3486): data type declaration for "value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3485): see declaration for object "value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3497): data type declaration for "L0" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "L0"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3498): data type declaration for "L0_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "L0_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3497): data type declaration for "L1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "L1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3498): data type declaration for "L1_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "L1_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3497): data type declaration for "G0" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "G0"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3498): data type declaration for "G0_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "G0_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3497): data type declaration for "G1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "G1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3498): data type declaration for "G1_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "G1_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3497): data type declaration for "G2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "G2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3498): data type declaration for "G2_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "G2_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3497): data type declaration for "G3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "G3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3498): data type declaration for "G3_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "G3_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3497): data type declaration for "E0" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "E0"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3498): data type declaration for "E0_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "E0_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3497): data type declaration for "E1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "E1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3498): data type declaration for "E1_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "E1_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3497): data type declaration for "E2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "E2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3498): data type declaration for "E2_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "E2_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3497): data type declaration for "E3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "E3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3498): data type declaration for "E3_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "E3_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3499): data type declaration for "scan_chain" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "scan_chain"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3500): data type declaration for "refclk" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "refclk"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3501): data type declaration for "m_mod" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3496): see declaration for object "m_mod"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3536): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3535): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3554): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3553): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3554): data type declaration for "Y" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3553): see declaration for object "Y"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3571): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3570): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3571): data type declaration for "Y" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3570): see declaration for object "Y"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3604): data type declaration for "A1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3603): see declaration for object "A1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3604): data type declaration for "A2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3603): see declaration for object "A2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3604): data type declaration for "A3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3603): see declaration for object "A3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3604): data type declaration for "A4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3603): see declaration for object "A4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3604): data type declaration for "A5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3603): see declaration for object "A5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3604): data type declaration for "A6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3603): see declaration for object "A6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3604): data type declaration for "A7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3603): see declaration for object "A7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3604): data type declaration for "A8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3603): see declaration for object "A8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3604): data type declaration for "A9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3603): see declaration for object "A9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3604): data type declaration for "A10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3603): see declaration for object "A10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3604): data type declaration for "P" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3603): see declaration for object "P"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3632): data type declaration for "clk_divide" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3631): see declaration for object "clk_divide"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3632): data type declaration for "clk_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3631): see declaration for object "clk_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3632): data type declaration for "M" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3631): see declaration for object "M"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3632): data type declaration for "N" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3631): see declaration for object "N"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3644): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3642): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3645): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3643): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3663): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3662): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3663): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3662): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3678): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3677): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3678): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3677): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3696): data type declaration for "t1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3695): see declaration for object "t1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3696): data type declaration for "t2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3695): see declaration for object "t2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3696): data type declaration for "t3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3695): see declaration for object "t3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3696): data type declaration for "t4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3695): see declaration for object "t4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3696): data type declaration for "t5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3695): see declaration for object "t5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3696): data type declaration for "t6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3695): see declaration for object "t6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3696): data type declaration for "t7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3695): see declaration for object "t7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3696): data type declaration for "t8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3695): see declaration for object "t8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3696): data type declaration for "t9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3695): see declaration for object "t9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3696): data type declaration for "t10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3695): see declaration for object "t10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3745): data type declaration for "t1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3744): see declaration for object "t1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3745): data type declaration for "t2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3744): see declaration for object "t2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3745): data type declaration for "t3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3744): see declaration for object "t3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3745): data type declaration for "t4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3744): see declaration for object "t4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3745): data type declaration for "t5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3744): see declaration for object "t5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3745): data type declaration for "t6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3744): see declaration for object "t6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3745): data type declaration for "t7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3744): see declaration for object "t7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3745): data type declaration for "t8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3744): see declaration for object "t8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3745): data type declaration for "t9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3744): see declaration for object "t9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3745): data type declaration for "t10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3744): see declaration for object "t10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3764): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3763): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3764): data type declaration for "ph_base" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3763): see declaration for object "ph_base"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3773): data type declaration for "clk_time_delay" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3772): see declaration for object "clk_time_delay"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3773): data type declaration for "m_time_delay" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3772): see declaration for object "m_time_delay"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3773): data type declaration for "n_time_delay" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3772): see declaration for object "n_time_delay"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3783): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3782): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3783): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3782): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3783): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3782): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3798): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3795): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3797): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3796): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3797): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3796): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3856): data type declaration for "i_phase_shift" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3855): see declaration for object "i_phase_shift"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(3873): data type declaration for "phase_shift" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(3872): see declaration for object "phase_shift"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7338): data type declaration for "numerator" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7331): see declaration for object "numerator"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7339): data type declaration for "denominator" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7332): see declaration for object "denominator"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7340): data type declaration for "max_denom" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7333): see declaration for object "max_denom"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7341): data type declaration for "fraction_num" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7334): see declaration for object "fraction_num"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7342): data type declaration for "fraction_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7335): see declaration for object "fraction_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7427): data type declaration for "value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7426): see declaration for object "value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7438): data type declaration for "C0" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "C0"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7439): data type declaration for "C0_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "C0_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7438): data type declaration for "C1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "C1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7439): data type declaration for "C1_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "C1_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7438): data type declaration for "C2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "C2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7439): data type declaration for "C2_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "C2_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7438): data type declaration for "C3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "C3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7439): data type declaration for "C3_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "C3_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7438): data type declaration for "C4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "C4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7439): data type declaration for "C4_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "C4_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7438): data type declaration for "C5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "C5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7439): data type declaration for "C5_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "C5_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7440): data type declaration for "refclk" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "refclk"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7441): data type declaration for "m_mod" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7437): see declaration for object "m_mod"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7468): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7467): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7486): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7485): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7486): data type declaration for "Y" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7485): see declaration for object "Y"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7503): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7502): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7503): data type declaration for "Y" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7502): see declaration for object "Y"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7536): data type declaration for "A1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7535): see declaration for object "A1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7536): data type declaration for "A2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7535): see declaration for object "A2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7536): data type declaration for "A3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7535): see declaration for object "A3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7536): data type declaration for "A4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7535): see declaration for object "A4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7536): data type declaration for "A5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7535): see declaration for object "A5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7536): data type declaration for "A6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7535): see declaration for object "A6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7536): data type declaration for "A7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7535): see declaration for object "A7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7536): data type declaration for "A8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7535): see declaration for object "A8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7536): data type declaration for "A9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7535): see declaration for object "A9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7536): data type declaration for "A10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7535): see declaration for object "A10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7536): data type declaration for "P" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7535): see declaration for object "P"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7564): data type declaration for "clk_divide" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7563): see declaration for object "clk_divide"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7564): data type declaration for "clk_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7563): see declaration for object "clk_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7564): data type declaration for "M" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7563): see declaration for object "M"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7564): data type declaration for "N" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7563): see declaration for object "N"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7576): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7574): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7577): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7575): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7595): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7594): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7595): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7594): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7610): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7609): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7610): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7609): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7632): data type declaration for "t1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7631): see declaration for object "t1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7632): data type declaration for "t2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7631): see declaration for object "t2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7632): data type declaration for "t3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7631): see declaration for object "t3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7632): data type declaration for "t4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7631): see declaration for object "t4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7632): data type declaration for "t5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7631): see declaration for object "t5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7632): data type declaration for "t6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7631): see declaration for object "t6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7632): data type declaration for "t7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7631): see declaration for object "t7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7632): data type declaration for "t8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7631): see declaration for object "t8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7632): data type declaration for "t9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7631): see declaration for object "t9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7632): data type declaration for "t10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7631): see declaration for object "t10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7681): data type declaration for "t1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7680): see declaration for object "t1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7681): data type declaration for "t2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7680): see declaration for object "t2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7681): data type declaration for "t3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7680): see declaration for object "t3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7681): data type declaration for "t4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7680): see declaration for object "t4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7681): data type declaration for "t5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7680): see declaration for object "t5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7681): data type declaration for "t6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7680): see declaration for object "t6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7681): data type declaration for "t7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7680): see declaration for object "t7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7681): data type declaration for "t8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7680): see declaration for object "t8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7681): data type declaration for "t9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7680): see declaration for object "t9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7681): data type declaration for "t10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7680): see declaration for object "t10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7700): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7699): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7700): data type declaration for "ph_base" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7699): see declaration for object "ph_base"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7710): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7709): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7710): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7709): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7710): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7709): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7725): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7722): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7724): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7723): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7724): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7723): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7783): data type declaration for "i_phase_shift" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7782): see declaration for object "i_phase_shift"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7800): data type declaration for "phase_shift" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7799): see declaration for object "phase_shift"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(7850): data type declaration for "msg_code" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(7849): see declaration for object "msg_code"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11282): data type declaration for "numerator" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11275): see declaration for object "numerator"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11283): data type declaration for "denominator" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11276): see declaration for object "denominator"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11284): data type declaration for "max_denom" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11277): see declaration for object "max_denom"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11285): data type declaration for "fraction_num" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11278): see declaration for object "fraction_num"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11286): data type declaration for "fraction_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11279): see declaration for object "fraction_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11363): data type declaration for "value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11362): see declaration for object "value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11374): data type declaration for "C0" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C0"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11375): data type declaration for "C0_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C0_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11374): data type declaration for "C1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11375): data type declaration for "C1_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C1_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11374): data type declaration for "C2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11375): data type declaration for "C2_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C2_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11374): data type declaration for "C3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11375): data type declaration for "C3_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C3_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11374): data type declaration for "C4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11375): data type declaration for "C4_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C4_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11374): data type declaration for "C5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11375): data type declaration for "C5_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C5_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11374): data type declaration for "C6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11375): data type declaration for "C6_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C6_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11374): data type declaration for "C7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11375): data type declaration for "C7_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C7_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11374): data type declaration for "C8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11375): data type declaration for "C8_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C8_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11374): data type declaration for "C9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11375): data type declaration for "C9_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "C9_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11376): data type declaration for "refclk" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "refclk"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11377): data type declaration for "m_mod" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11373): see declaration for object "m_mod"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11409): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11408): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11427): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11426): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11427): data type declaration for "Y" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11426): see declaration for object "Y"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11444): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11443): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11444): data type declaration for "Y" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11443): see declaration for object "Y"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11477): data type declaration for "A1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11476): see declaration for object "A1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11477): data type declaration for "A2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11476): see declaration for object "A2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11477): data type declaration for "A3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11476): see declaration for object "A3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11477): data type declaration for "A4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11476): see declaration for object "A4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11477): data type declaration for "A5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11476): see declaration for object "A5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11477): data type declaration for "A6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11476): see declaration for object "A6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11477): data type declaration for "A7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11476): see declaration for object "A7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11477): data type declaration for "A8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11476): see declaration for object "A8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11477): data type declaration for "A9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11476): see declaration for object "A9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11477): data type declaration for "A10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11476): see declaration for object "A10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11477): data type declaration for "P" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11476): see declaration for object "P"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11531): data type declaration for "inclock_period" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11509): see declaration for object "inclock_period"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11532): data type declaration for "vco_phase_shift_step" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11510): see declaration for object "vco_phase_shift_step"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11533): data type declaration for "clk0_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11511): see declaration for object "clk0_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11533): data type declaration for "clk1_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11511): see declaration for object "clk1_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11533): data type declaration for "clk2_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11511): see declaration for object "clk2_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11533): data type declaration for "clk3_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11511): see declaration for object "clk3_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11533): data type declaration for "clk4_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11511): see declaration for object "clk4_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11534): data type declaration for "clk5_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11512): see declaration for object "clk5_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11534): data type declaration for "clk6_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11512): see declaration for object "clk6_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11534): data type declaration for "clk7_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11512): see declaration for object "clk7_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11534): data type declaration for "clk8_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11512): see declaration for object "clk8_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11534): data type declaration for "clk9_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11512): see declaration for object "clk9_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11535): data type declaration for "clk0_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11513): see declaration for object "clk0_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11535): data type declaration for "clk1_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11513): see declaration for object "clk1_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11535): data type declaration for "clk2_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11513): see declaration for object "clk2_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11535): data type declaration for "clk3_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11513): see declaration for object "clk3_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11535): data type declaration for "clk4_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11513): see declaration for object "clk4_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11536): data type declaration for "clk5_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11514): see declaration for object "clk5_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11536): data type declaration for "clk6_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11514): see declaration for object "clk6_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11536): data type declaration for "clk7_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11514): see declaration for object "clk7_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11536): data type declaration for "clk8_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11514): see declaration for object "clk8_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11536): data type declaration for "clk9_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11514): see declaration for object "clk9_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11528): data type declaration for "clk0_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11515): see declaration for object "clk0_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11528): data type declaration for "clk1_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11515): see declaration for object "clk1_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11528): data type declaration for "clk2_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11515): see declaration for object "clk2_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11528): data type declaration for "clk3_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11515): see declaration for object "clk3_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11528): data type declaration for "clk4_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11515): see declaration for object "clk4_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11529): data type declaration for "clk5_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11516): see declaration for object "clk5_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11529): data type declaration for "clk6_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11516): see declaration for object "clk6_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11529): data type declaration for "clk7_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11516): see declaration for object "clk7_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11529): data type declaration for "clk8_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11516): see declaration for object "clk8_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11529): data type declaration for "clk9_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11516): see declaration for object "clk9_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11537): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11517): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11538): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11518): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11687): data type declaration for "clk_divide" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11686): see declaration for object "clk_divide"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11687): data type declaration for "clk_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11686): see declaration for object "clk_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11687): data type declaration for "M" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11686): see declaration for object "M"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11687): data type declaration for "N" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11686): see declaration for object "N"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11701): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11699): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11702): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11700): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11720): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11719): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11720): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11719): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11735): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11734): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11735): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11734): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11751): data type declaration for "t1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11750): see declaration for object "t1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11751): data type declaration for "t2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11750): see declaration for object "t2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11751): data type declaration for "t3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11750): see declaration for object "t3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11751): data type declaration for "t4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11750): see declaration for object "t4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11751): data type declaration for "t5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11750): see declaration for object "t5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11751): data type declaration for "t6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11750): see declaration for object "t6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11751): data type declaration for "t7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11750): see declaration for object "t7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11751): data type declaration for "t8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11750): see declaration for object "t8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11751): data type declaration for "t9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11750): see declaration for object "t9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11751): data type declaration for "t10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11750): see declaration for object "t10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11800): data type declaration for "t1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11799): see declaration for object "t1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11800): data type declaration for "t2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11799): see declaration for object "t2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11800): data type declaration for "t3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11799): see declaration for object "t3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11800): data type declaration for "t4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11799): see declaration for object "t4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11800): data type declaration for "t5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11799): see declaration for object "t5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11800): data type declaration for "t6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11799): see declaration for object "t6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11800): data type declaration for "t7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11799): see declaration for object "t7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11800): data type declaration for "t8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11799): see declaration for object "t8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11800): data type declaration for "t9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11799): see declaration for object "t9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11800): data type declaration for "t10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11799): see declaration for object "t10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11819): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11818): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11819): data type declaration for "ph_base" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11818): see declaration for object "ph_base"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11829): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11828): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11829): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11828): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11829): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11828): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11844): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11841): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11843): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11842): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11843): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11842): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11905): data type declaration for "i_phase_shift" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11904): see declaration for object "i_phase_shift"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11922): data type declaration for "phase_shift" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11921): see declaration for object "phase_shift"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(11972): data type declaration for "msg_code" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(11971): see declaration for object "msg_code"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15268): data type declaration for "numerator" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15261): see declaration for object "numerator"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15269): data type declaration for "denominator" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15262): see declaration for object "denominator"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15270): data type declaration for "max_denom" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15263): see declaration for object "max_denom"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15271): data type declaration for "fraction_num" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15264): see declaration for object "fraction_num"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15272): data type declaration for "fraction_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15265): see declaration for object "fraction_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15349): data type declaration for "value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15348): see declaration for object "value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15360): data type declaration for "C0" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C0"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15361): data type declaration for "C0_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C0_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15360): data type declaration for "C1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15361): data type declaration for "C1_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C1_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15360): data type declaration for "C2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15361): data type declaration for "C2_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C2_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15360): data type declaration for "C3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15361): data type declaration for "C3_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C3_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15360): data type declaration for "C4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15361): data type declaration for "C4_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C4_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15360): data type declaration for "C5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15361): data type declaration for "C5_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C5_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15360): data type declaration for "C6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15361): data type declaration for "C6_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C6_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15360): data type declaration for "C7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15361): data type declaration for "C7_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C7_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15360): data type declaration for "C8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15361): data type declaration for "C8_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C8_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15360): data type declaration for "C9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15361): data type declaration for "C9_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "C9_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15362): data type declaration for "refclk" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "refclk"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15363): data type declaration for "m_mod" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15359): see declaration for object "m_mod"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15395): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15394): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15413): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15412): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15413): data type declaration for "Y" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15412): see declaration for object "Y"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15430): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15429): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15430): data type declaration for "Y" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15429): see declaration for object "Y"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15463): data type declaration for "A1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15462): see declaration for object "A1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15463): data type declaration for "A2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15462): see declaration for object "A2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15463): data type declaration for "A3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15462): see declaration for object "A3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15463): data type declaration for "A4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15462): see declaration for object "A4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15463): data type declaration for "A5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15462): see declaration for object "A5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15463): data type declaration for "A6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15462): see declaration for object "A6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15463): data type declaration for "A7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15462): see declaration for object "A7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15463): data type declaration for "A8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15462): see declaration for object "A8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15463): data type declaration for "A9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15462): see declaration for object "A9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15463): data type declaration for "A10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15462): see declaration for object "A10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15463): data type declaration for "P" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15462): see declaration for object "P"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15517): data type declaration for "inclock_period" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15495): see declaration for object "inclock_period"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15518): data type declaration for "vco_phase_shift_step" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15496): see declaration for object "vco_phase_shift_step"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15519): data type declaration for "clk0_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15497): see declaration for object "clk0_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15519): data type declaration for "clk1_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15497): see declaration for object "clk1_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15519): data type declaration for "clk2_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15497): see declaration for object "clk2_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15519): data type declaration for "clk3_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15497): see declaration for object "clk3_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15519): data type declaration for "clk4_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15497): see declaration for object "clk4_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15520): data type declaration for "clk5_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15498): see declaration for object "clk5_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15520): data type declaration for "clk6_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15498): see declaration for object "clk6_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15520): data type declaration for "clk7_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15498): see declaration for object "clk7_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15520): data type declaration for "clk8_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15498): see declaration for object "clk8_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15520): data type declaration for "clk9_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15498): see declaration for object "clk9_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15521): data type declaration for "clk0_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15499): see declaration for object "clk0_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15521): data type declaration for "clk1_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15499): see declaration for object "clk1_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15521): data type declaration for "clk2_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15499): see declaration for object "clk2_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15521): data type declaration for "clk3_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15499): see declaration for object "clk3_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15521): data type declaration for "clk4_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15499): see declaration for object "clk4_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15522): data type declaration for "clk5_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15500): see declaration for object "clk5_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15522): data type declaration for "clk6_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15500): see declaration for object "clk6_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15522): data type declaration for "clk7_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15500): see declaration for object "clk7_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15522): data type declaration for "clk8_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15500): see declaration for object "clk8_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15522): data type declaration for "clk9_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15500): see declaration for object "clk9_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15514): data type declaration for "clk0_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15501): see declaration for object "clk0_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15514): data type declaration for "clk1_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15501): see declaration for object "clk1_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15514): data type declaration for "clk2_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15501): see declaration for object "clk2_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15514): data type declaration for "clk3_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15501): see declaration for object "clk3_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15514): data type declaration for "clk4_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15501): see declaration for object "clk4_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15515): data type declaration for "clk5_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15502): see declaration for object "clk5_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15515): data type declaration for "clk6_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15502): see declaration for object "clk6_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15515): data type declaration for "clk7_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15502): see declaration for object "clk7_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15515): data type declaration for "clk8_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15502): see declaration for object "clk8_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15515): data type declaration for "clk9_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15502): see declaration for object "clk9_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15523): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15503): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15524): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15504): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15673): data type declaration for "clk_divide" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15672): see declaration for object "clk_divide"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15673): data type declaration for "clk_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15672): see declaration for object "clk_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15673): data type declaration for "M" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15672): see declaration for object "M"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15673): data type declaration for "N" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15672): see declaration for object "N"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15687): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15685): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15688): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15686): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15706): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15705): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15706): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15705): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15721): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15720): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15721): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15720): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15737): data type declaration for "t1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15736): see declaration for object "t1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15737): data type declaration for "t2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15736): see declaration for object "t2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15737): data type declaration for "t3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15736): see declaration for object "t3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15737): data type declaration for "t4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15736): see declaration for object "t4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15737): data type declaration for "t5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15736): see declaration for object "t5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15737): data type declaration for "t6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15736): see declaration for object "t6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15737): data type declaration for "t7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15736): see declaration for object "t7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15737): data type declaration for "t8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15736): see declaration for object "t8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15737): data type declaration for "t9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15736): see declaration for object "t9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15737): data type declaration for "t10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15736): see declaration for object "t10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15786): data type declaration for "t1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15785): see declaration for object "t1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15786): data type declaration for "t2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15785): see declaration for object "t2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15786): data type declaration for "t3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15785): see declaration for object "t3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15786): data type declaration for "t4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15785): see declaration for object "t4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15786): data type declaration for "t5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15785): see declaration for object "t5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15786): data type declaration for "t6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15785): see declaration for object "t6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15786): data type declaration for "t7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15785): see declaration for object "t7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15786): data type declaration for "t8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15785): see declaration for object "t8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15786): data type declaration for "t9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15785): see declaration for object "t9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15786): data type declaration for "t10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15785): see declaration for object "t10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15805): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15804): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15805): data type declaration for "ph_base" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15804): see declaration for object "ph_base"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15815): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15814): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15815): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15814): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15815): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15814): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15830): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15827): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15829): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15828): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15829): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15828): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15891): data type declaration for "i_phase_shift" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15890): see declaration for object "i_phase_shift"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15908): data type declaration for "phase_shift" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15907): see declaration for object "phase_shift"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(15958): data type declaration for "msg_code" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(15957): see declaration for object "msg_code"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(18972): data type declaration for "numerator" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(18965): see declaration for object "numerator"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(18973): data type declaration for "denominator" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(18966): see declaration for object "denominator"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(18974): data type declaration for "max_denom" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(18967): see declaration for object "max_denom"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(18975): data type declaration for "fraction_num" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(18968): see declaration for object "fraction_num"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(18976): data type declaration for "fraction_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(18969): see declaration for object "fraction_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19053): data type declaration for "value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19052): see declaration for object "value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19064): data type declaration for "C0" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C0"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19065): data type declaration for "C0_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C0_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19064): data type declaration for "C1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19065): data type declaration for "C1_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C1_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19064): data type declaration for "C2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19065): data type declaration for "C2_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C2_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19064): data type declaration for "C3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19065): data type declaration for "C3_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C3_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19064): data type declaration for "C4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19065): data type declaration for "C4_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C4_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19064): data type declaration for "C5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19065): data type declaration for "C5_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C5_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19064): data type declaration for "C6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19065): data type declaration for "C6_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C6_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19064): data type declaration for "C7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19065): data type declaration for "C7_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C7_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19064): data type declaration for "C8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19065): data type declaration for "C8_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C8_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19064): data type declaration for "C9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19065): data type declaration for "C9_mode" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "C9_mode"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19066): data type declaration for "refclk" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "refclk"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19067): data type declaration for "m_mod" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19063): see declaration for object "m_mod"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19099): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19098): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19117): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19116): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19117): data type declaration for "Y" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19116): see declaration for object "Y"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19134): data type declaration for "X" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19133): see declaration for object "X"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19134): data type declaration for "Y" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19133): see declaration for object "Y"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19167): data type declaration for "A1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19166): see declaration for object "A1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19167): data type declaration for "A2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19166): see declaration for object "A2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19167): data type declaration for "A3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19166): see declaration for object "A3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19167): data type declaration for "A4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19166): see declaration for object "A4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19167): data type declaration for "A5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19166): see declaration for object "A5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19167): data type declaration for "A6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19166): see declaration for object "A6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19167): data type declaration for "A7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19166): see declaration for object "A7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19167): data type declaration for "A8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19166): see declaration for object "A8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19167): data type declaration for "A9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19166): see declaration for object "A9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19167): data type declaration for "A10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19166): see declaration for object "A10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19167): data type declaration for "P" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19166): see declaration for object "P"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19221): data type declaration for "inclock_period" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19199): see declaration for object "inclock_period"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19222): data type declaration for "vco_phase_shift_step" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19200): see declaration for object "vco_phase_shift_step"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19223): data type declaration for "clk0_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19201): see declaration for object "clk0_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19223): data type declaration for "clk1_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19201): see declaration for object "clk1_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19223): data type declaration for "clk2_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19201): see declaration for object "clk2_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19223): data type declaration for "clk3_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19201): see declaration for object "clk3_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19223): data type declaration for "clk4_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19201): see declaration for object "clk4_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19224): data type declaration for "clk5_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19202): see declaration for object "clk5_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19224): data type declaration for "clk6_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19202): see declaration for object "clk6_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19224): data type declaration for "clk7_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19202): see declaration for object "clk7_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19224): data type declaration for "clk8_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19202): see declaration for object "clk8_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19224): data type declaration for "clk9_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19202): see declaration for object "clk9_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19225): data type declaration for "clk0_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19203): see declaration for object "clk0_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19225): data type declaration for "clk1_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19203): see declaration for object "clk1_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19225): data type declaration for "clk2_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19203): see declaration for object "clk2_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19225): data type declaration for "clk3_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19203): see declaration for object "clk3_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19225): data type declaration for "clk4_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19203): see declaration for object "clk4_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19226): data type declaration for "clk5_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19204): see declaration for object "clk5_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19226): data type declaration for "clk6_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19204): see declaration for object "clk6_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19226): data type declaration for "clk7_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19204): see declaration for object "clk7_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19226): data type declaration for "clk8_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19204): see declaration for object "clk8_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19226): data type declaration for "clk9_div" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19204): see declaration for object "clk9_div"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19218): data type declaration for "clk0_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19205): see declaration for object "clk0_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19218): data type declaration for "clk1_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19205): see declaration for object "clk1_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19218): data type declaration for "clk2_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19205): see declaration for object "clk2_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19218): data type declaration for "clk3_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19205): see declaration for object "clk3_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19218): data type declaration for "clk4_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19205): see declaration for object "clk4_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19219): data type declaration for "clk5_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19206): see declaration for object "clk5_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19219): data type declaration for "clk6_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19206): see declaration for object "clk6_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19219): data type declaration for "clk7_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19206): see declaration for object "clk7_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19219): data type declaration for "clk8_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19206): see declaration for object "clk8_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19219): data type declaration for "clk9_used" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19206): see declaration for object "clk9_used"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19227): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19207): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19228): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19208): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19377): data type declaration for "clk_divide" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19376): see declaration for object "clk_divide"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19377): data type declaration for "clk_mult" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19376): see declaration for object "clk_mult"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19377): data type declaration for "M" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19376): see declaration for object "M"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19377): data type declaration for "N" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19376): see declaration for object "N"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19391): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19389): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19392): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19390): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19410): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19409): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19410): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19409): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19425): data type declaration for "output_counter_value" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19424): see declaration for object "output_counter_value"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19425): data type declaration for "duty_cycle" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19424): see declaration for object "duty_cycle"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19441): data type declaration for "t1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19440): see declaration for object "t1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19441): data type declaration for "t2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19440): see declaration for object "t2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19441): data type declaration for "t3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19440): see declaration for object "t3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19441): data type declaration for "t4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19440): see declaration for object "t4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19441): data type declaration for "t5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19440): see declaration for object "t5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19441): data type declaration for "t6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19440): see declaration for object "t6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19441): data type declaration for "t7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19440): see declaration for object "t7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19441): data type declaration for "t8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19440): see declaration for object "t8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19441): data type declaration for "t9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19440): see declaration for object "t9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19441): data type declaration for "t10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19440): see declaration for object "t10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19490): data type declaration for "t1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19489): see declaration for object "t1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19490): data type declaration for "t2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19489): see declaration for object "t2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19490): data type declaration for "t3" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19489): see declaration for object "t3"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19490): data type declaration for "t4" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19489): see declaration for object "t4"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19490): data type declaration for "t5" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19489): see declaration for object "t5"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19490): data type declaration for "t6" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19489): see declaration for object "t6"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19490): data type declaration for "t7" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19489): see declaration for object "t7"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19490): data type declaration for "t8" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19489): see declaration for object "t8"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19490): data type declaration for "t9" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19489): see declaration for object "t9"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19490): data type declaration for "t10" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19489): see declaration for object "t10"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19509): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19508): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19509): data type declaration for "ph_base" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19508): see declaration for object "ph_base"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19519): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19518): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19519): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19518): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19519): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19518): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19534): data type declaration for "tap_phase" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19531): see declaration for object "tap_phase"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19533): data type declaration for "m" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19532): see declaration for object "m"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19533): data type declaration for "n" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19532): see declaration for object "n"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19595): data type declaration for "i_phase_shift" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19594): see declaration for object "i_phase_shift"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19612): data type declaration for "phase_shift" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19611): see declaration for object "phase_shift"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(19662): data type declaration for "msg_code" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(19661): see declaration for object "msg_code"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(41588): data type declaration for "index1" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(41587): see declaration for object "index1"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(41590): data type declaration for "index2" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(41589): see declaration for object "index2"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(41614): data type declaration for "base_number" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(41612): see declaration for object "base_number"
+Warning (10227): Verilog HDL Port Declaration warning at altera_mf.v(41615): data type declaration for "exponent_number" declares packed dimensions but the port declaration declaration does not
+Info (10499): HDL info at altera_mf.v(41613): see declaration for object "exponent_number"
+Info (12127): Elaborating entity "pp_computer" for the top level hierarchy
+Info (12128): Elaborating entity "clock_and_mem_clock" for hierarchy "clock_and_mem_clock:inst1"
+Error (12006): Node instance "inst" instantiates undefined entity "pipeline_computer"
+Info (144001): Generated suppressed messages file C:/Users/97537/STUDY/Digital_Component_Design/pp_test/output_files/pp_test.map.smsg
+Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 1 error, 572 warnings
+    Error: Peak virtual memory: 4706 megabytes
+    Error: Processing ended: Fri Jun 04 20:23:17 2021
+    Error: Elapsed time: 00:00:03
+    Error: Total CPU time (on all processors): 00:00:02
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/97537/STUDY/Digital_Component_Design/pp_test/output_files/pp_test.map.smsg.
+
+

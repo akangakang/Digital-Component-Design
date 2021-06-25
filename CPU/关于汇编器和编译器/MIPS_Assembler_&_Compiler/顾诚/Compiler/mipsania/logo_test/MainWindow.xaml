@@ -1,0 +1,114 @@
+﻿<Window x:Class="LogoScriptIDE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:myspace="clr-namespace:LogoScriptIDE"
+        Title="Mips Mania"
+        SizeToContent="Height"
+        ResizeMode="CanMinimize"
+        Width="500"
+        Loaded="Window_Loaded"
+        Closed="Window_Closed" Closing="Window_Closing">
+    
+    <Window.CommandBindings>
+        <CommandBinding Command="myspace:MainWindow.CommandOpen" Executed="mnuOpen_Click" />
+        <CommandBinding Command="myspace:MainWindow.CommandSave" Executed="mnuSave_Click" />
+        <CommandBinding Command="myspace:MainWindow.CommandNew" Executed="mnuNew_Click" />
+        <CommandBinding Command="myspace:MainWindow.CommandUndo" Executed="mnuUndo_Click"/>
+        <CommandBinding Command="myspace:MainWindow.CommandRedo" Executed="mnuRedo_Click"/>
+    </Window.CommandBindings>
+    
+    <Window.InputBindings>
+        <KeyBinding Command="myspace:MainWindow.CommandOpen" Key="O" Modifiers="Ctrl"/>
+        <KeyBinding Command="myspace:MainWindow.CommandSave" Key="S" Modifiers="Ctrl"/>
+        <KeyBinding Command="myspace:MainWindow.CommandNew" Key="N" Modifiers="Ctrl"/>
+        <KeyBinding Command="myspace:MainWindow.CommandUndo" Key="Z" Modifiers="Ctrl"/>
+        <KeyBinding Command="myspace:MainWindow.CommandRedo" Key="Y" Modifiers="Ctrl"/>
+    </Window.InputBindings>
+    
+        <DockPanel HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Menu DockPanel.Dock="Top" Width="500">
+            <MenuItem Header="_File" Name="ui_mnuFile">
+                <MenuItem Header="_New" Name="ui_mnuNew" Command="myspace:MainWindow.CommandNew" InputGestureText="Ctrl+N"/>
+                <Separator/>
+                <MenuItem Header="_Open" Name="ui_mnuOpen" Command="myspace:MainWindow.CommandOpen" InputGestureText="Ctrl+O"/>
+                <MenuItem Header="Save" Name="ui_mnuSave" Command="myspace:MainWindow.CommandSave" InputGestureText="Ctrl+S"/>
+                <MenuItem Header="_Save As" Name="ui_mnuSaveAs" Click="mnuSaveAs_Click"/>
+                <Separator/>
+                <MenuItem Header="_Options" Name="ui_mnuOptions"/>
+                <Separator/>
+                <MenuItem Header="_Exit" Name="ui_mnuExit" Click="mnuExit_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Editor" Name="ui_mnuEditor">
+                <MenuItem Header="_Undo" Name="ui_mnuUndo" Click="mnuUndo_Click" InputGestureText="Ctrl+Z"/>
+                <MenuItem Header="_Redo" Name="ui_mnuRedo" Click="mnuRedo_Click" InputGestureText="Ctrl+Y"/>
+                <Separator/>
+                <MenuItem Header="_Cut" Name="ui_mnuCut" Click="mnuCut_Click" InputGestureText="Ctrl+X"/>
+                <MenuItem Header="_Copy" Name="ui_mnuCopy" Click="mnuCopy_Click" InputGestureText="Ctrl+C"/>
+                <MenuItem Header="_Paste" Name="ui_mnuPaste" Click="mnvPaste_Click" InputGestureText="Ctrl+V"/>
+                <Separator/>
+                <MenuItem Header="_Check Syntax" Name="ui_mnuCheckSyntax" Click="ui_mnuCheckSyntax_Click"/>
+            </MenuItem>
+            <MenuItem Header="_View" Name="ui_mnuView">
+                <MenuItem Header="_Editor" Name="ui_mnuViewEditor" Click="mnuViewEditor_Click" IsChecked="True"/>
+            
+                <MenuItem Header="_Memory" Name="ui_mnuViewWatches" Click="mnuViewWatches_Click" IsChecked="False"/>
+                <MenuItem Header="_Console" Name="ui_mnuViewConsole" Click="mnuViewConsole_Click" IsChecked="True"/>
+                <MenuItem Header="_Registers" Name="ui_mnuViewStack" Click="mnuViewStack_Click" IsChecked="False"/>
+            </MenuItem>
+            <MenuItem Header="_Debug" Name="ui_mnuDebug">
+                <MenuItem Header="_Run" Name="ui_mnuRun" Click="mnuRun_Click" />
+                <MenuItem Header="_Pause" Name="ui_mnuPause" Click="mnuPause_Click" />
+                <MenuItem Header="_Stop" Name="ui_mnuStop" Click="mnuStop_Click" />
+                <Separator/>
+                <MenuItem Header="Step _In" Name="ui_mnuStepin" Click="mnuStepIn_Click"/>
+                <!--MenuItem Header="Step _Out" Name="ui_mnuStepout" Click="mnuStepOut_Click"/-->
+                <MenuItem Header="Step _Over" Name="ui_mnuStepover" Click="mnuStepOver_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Help" Name="ui_mnuHelp">
+                <MenuItem Header="_About" Name="ui_mnuAbout" Click="mnuAbout_Click"/>
+            </MenuItem>
+            
+        </Menu>
+        <ToolBar DockPanel.Dock="Top" Background="AliceBlue" Width="480" DataContext="{Binding}">
+            <Button DataContext="{Binding}" Width="30" Height="30" Name="ui_toolNew" Command="myspace:MainWindow.CommandNew">
+                <Image Source="pack://application:,,,/Component/New.png"/>
+            </Button>
+            <Button DataContext="{Binding}" Width="30" Height="30" Name="ui_toolOpen" Command="myspace:MainWindow.CommandOpen">
+                <Image Source="pack://application:,,,/Component/Open.png"/>
+            </Button>
+            <Button DataContext="{Binding}" Width="30" Height="30" Name="ui_toolSave" Command="myspace:MainWindow.CommandSave">
+                <Image Source="pack://application:,,,/Component/Save.png"/>
+            </Button>
+            <Separator/>
+            <Button DataContext="{Binding}" Width="30" Height="30" Name="ui_toolUndo" Command="myspace:MainWindow.CommandUndo">
+                <Image Source="pack://application:,,,/Component/Undo.ico"/>
+            </Button>
+            <Button DataContext="{Binding}" Width="30" Height="30" Name="ui_toolRedo" Command="myspace:MainWindow.CommandRedo">
+                <Image Source="pack://application:,,,/Component/Redo.ico"/>
+            </Button>
+            <Separator/>
+            <Button DataContext="{Binding}" Width="30" Height="30" Name="ui_toolRun" Click="mnuRun_Click">
+                <Image Source="pack://application:,,,/Component/Run.png"/>
+            </Button>
+            <Button DataContext="{Binding}" Width="30" Height="30" Name="ui_toolPause" Click="mnuPause_Click">
+                <Image Source="pack://application:,,,/Component/Pause.png"/>
+            </Button>
+            <Button DataContext="{Binding}" Width="30" Height="30" Name="ui_toolStop" Click="mnuStop_Click">
+                <Image Source="pack://application:,,,/Component/Stop.png"/>
+            </Button>
+            <Button DataContext="{Binding}" Width="30" Height="30" Name="ui_toolStepIn" Click="mnuStepIn_Click">
+                <Image Source="pack://application:,,,/Component/StepIn.png"/>
+            </Button>
+            <Button DataContext="{Binding}" Width="30" Height="30" Name="ui_toolStepOver" Click="mnuStepOver_Click">
+                <Image Source="pack://application:,,,/Component/StepOver.png"/>
+            </Button>
+            <!--Button DataContext="{Binding}" Width="30" Height="30" Name="ui_toolStepOut" Click="mnuStepOut_Click">
+                <Image Source="pack://application:,,,/Component/StepOut.png"/>
+            </Button-->
+            <Separator/>
+            <Button DataContext="{Binding}" Width="30" Height="30" Name="ui_toolExit" Click="mnuExit_Click">
+                <Image Source="pack://application:,,,/Component/Close.png"/>
+            </Button>
+        </ToolBar>
+    </DockPanel>
+</Window>
